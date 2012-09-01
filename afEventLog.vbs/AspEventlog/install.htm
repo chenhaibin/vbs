@@ -1,0 +1,150 @@
+<HTML>
+<HEAD>
+<TITLE>AspEventlog 2.0 Component</TITLE>
+<BODY BGCOLOR="#ffffff">
+<FONT FACE="Tahoma, Arial, Times">
+
+<h1>AspEventlog 2.0 Component - <I>free</I></h1>
+<p>
+<B>Last updated:</b> 06/21/99, <b>v2.0</b> (01/20/99 Initial Release)<br>
+<b>New Features:</b> remote logging, custom event sources, easier logging support.
+</p>
+<hr>
+
+<p>You can log additional information to the site logs using <i>Response.AppendToLog</i>, however, sometimes it
+is important to see events reported to a more central log of Windows NT itself - the Application eventlog (like the
+Application_OnStart event in global.asa). You can use Event Viewer immediately to filter for events, without having to go to the log files and processing them.</p>
+
+<p>The AspEventlog component can be used from any OLE Automation enviroment, including but not limited to ASP (though
+the name would imply that). It registers itself with the eventlog during the standard OLE registration process.</p>
+
+<p>The component's interface is intended to be simple, but powerful if you want to have events reported to the Application eventlog of the local server (works with a standard installation,
+aka server runs under IUSR_machinename account). All four different event types (success, error, warning and information) can be logged, together with a 
+single string of information (you are free to include anything in this string, like IP, user agent, etc). See the sample for how to do that.
+</p>
+
+
+<UL>
+<li><a href="#TheDownload">Installation</a>
+<li><a href="#TheMethods">Methods</a>
+<li><a href="#TheSamples">Samples</a>
+</UL>
+
+<a name="TheMethods"><h2>Methods</h2></a>
+
+<table cellspacing="2" cellpadding="2" border="0">
+<tr>
+    <td valign="top"><pre>Open()</pre></td>
+    <td valign="top">Opens the Application event log on the local computer. The event source is "AspEventLog".</td>
+</tr>
+<tr>
+    <td valign="top"><pre>OpenEx(ComputerName,SourceName)</pre></td>
+    <td valign="top">Opens the Application event log on the computer you specify, and registers the event source you specify.
+		If you want to open the local computer's event log, supply <i>vbNullChar</i> as the ComputerName. If you supply
+		a SourceName different from "AspEventLog", you first need to create the event source.
+	</td>
+</tr>
+<tr>
+    <td valign="top"><pre>Close()</pre></td>
+    <td valign="top">Closes the currently open event log.</td>
+</tr>
+<tr>
+    <td valign="top"><pre>ReportSuccess(EventDescr)</pre></td>
+    <td valign="top">Reports a success event to the opened event log.</td>
+</tr>
+<tr>
+    <td valign="top"><pre>ReportError(EventDescr)</pre></td>
+    <td valign="top">Reports an error event to the opened event log.</td>
+</tr>
+<tr>
+    <td valign="top"><pre>ReportInformation(EventDescr)</pre></td>
+    <td valign="top">Reports an informational event to the opened event log.</td>
+</tr>
+<tr>
+    <td valign="top"><pre>ReportWarning(EventDescr)</pre></td>
+    <td valign="top">Reports a warning event to the opened event log.</td>
+</tr>
+<tr>
+    <td valign="top"><pre>ReportEvent(wEventType,EventDescr)</pre></td>
+    <td valign="top">Generic reporting function (introduced in 1.0), which takes the event type as first parameter.
+		See the samples for the 4 valid event types or use the preceding four new methods to report events
+		of the corresponding event type.
+	</td>
+</tr>
+<tr>
+    <td valign="top"><pre>CreateEventSource(EventSource)</pre></td>
+    <td valign="top">Creates a new event source. Use it when you want to report events under a special event source (eg "My Source" 
+		instead of "AspEventLog"). Due to the nature of event logging, event sources must be registered in the registry before
+		the reported events can be displayed. This method can register event sources only on the local machine.
+	</td>
+</tr>
+<tr>
+    <td valign="top"><pre>DeleteEventSource(EventSource)</pre></td>
+    <td valign="top">Deletes the registry entries of a previously created event source.</td>
+</tr>
+</table>
+
+
+<a name="TheSamples"><h2>Samples</h2></a>
+<p>
+The component ships with an Excel workbook that demonstrates many of the useful usage scenarios of the component
+(including remote logging and the creation of custom event sources). The reason
+why it is implemented as Excel example is that you can interactively test the code (much easier than in ASP). However, you can
+take the code and port it to ASP (ok, you can use it in any Automation environment).</p>
+
+<p>Below is an example of such a port to ASP.</p>
+
+
+<pre>
+&lt;% Option Explicit %&gt;
+&lt;!-- Christoph Wille, 20.1.99 --&gt;
+
+
+&lt;%
+Const EVENTLOG_SUCCESS = 0
+Const EVENTLOG_ERROR_TYPE = 1
+Const EVENTLOG_WARNING_TYPE = 2
+Const EVENTLOG_INFORMATION_TYPE = 4
+%&gt;
+
+&lt;%
+' Create the AspEventlog object
+Dim xObj, bResult
+Set xObj = Server.CreateObject(&quot;SOFTWING.ASPEventlog&quot;)
+
+' open the log and report the status
+bResult = xObj.Open()
+Response.Write &quot;Open called with return value of: &quot; &  bResult _
+	& &quot;&lt;BR&gt;&quot; & vbCRLF
+
+' write a information type event and give feedback
+bResult = xObj.ReportEvent(EVENTLOG_INFORMATION_TYPE, _
+	&quot;This is a demo event from SOFTWING&quot;)
+Response.Write &quot;Event was reported successfully: &quot; & bResult _
+	& &quot;&lt;BR&gt;&quot; & vbCRLF
+
+' close the log (would be done automatically on object destruction)
+bResult = xObj.Close()
+Response.Write &quot;Log closed successfully: &quot; & bResult & _
+	&quot;&lt;BR&gt;&quot; & vbCRLF
+
+' delete the object and free up memory
+Set xObj = Nothing
+%&gt;
+</pre>
+
+<a name="TheDownload"><h2>Installation</h2></a>
+<p>Before using the component you have to register it using the regsvr32 utility:
+<em>regsvr32 AspEventlog.dll</em>.</p>
+
+<p>If you do have any questions, please feel free to send mail to <a
+href="mailto:christophw@softwing.com">Christoph Wille</a>. </p>
+
+</TD></TR></TABLE>
+&nbsp;<P>
+
+
+
+</BODY>
+</HTML>
+

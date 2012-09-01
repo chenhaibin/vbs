@@ -1,0 +1,61 @@
+Name			: Filelist.txt - Provides a template to check against for successful backups 
+Author			: Adrian Farnell
+Date Created/Amended	: 05/09/2000
+Version			: pre-alpha
+
+<SERVER DEFINITIONS>----------------------------------------
+
+<all servers>ECOM0001,ECOM0002,ECOM0011,ECOM0021,ECOM0022,ECOM0023,ECOM0024,ECOM0101,ECOM0103,ECOM0105,ECOM0201,ECOM0202,ECOM0203,ECOM0204,ECOM0205,ECOM0206,ECOM0207,ECOM0208,ECOM0209,ECOM0210
+<web servers>ECOM0201,ECOM0202
+<sql servers>ECOM0101,ECOM0103,ECOM0105
+<mem servers>ECOM0101,ECOM5101
+<aud servers>ECOM0103,ecom5103
+<ses servers>ECOM0105
+
+<HOURLY CHECKS>---------------------------------------------
+
+Transactions_1\<mem servers>\MLOG_HHmm_DDMMYYYY
+Transactions_1\<mem servers>\P1_HHmm_DDMMYYYY
+Transactions_1\<mem servers>\P2_HHmm_DDMMYYYY
+Transactions_1\<mem servers>\P3_HHmm_DDMMYYYY
+Transactions_1\<mem servers>\P4_HHmm_DDMMYYYY
+Transactions_1\<aud servers>\Aud_HHmm_DDMMYYYY
+
+xxx\<mem servers>\inMMDDYY.log
+
+<00:00-00:59 CHECKS>----------------------------------------
+
+DataDump_1\<mem servers>\SSMembershipMaster.bak
+DataDump_1\<mem servers>\SSMembershipP1.bak
+DataDump_1\<mem servers>\SSMembershipP2.bak
+DataDump_1\<mem servers>\SSMembershipP3.bak
+DataDump_1\<mem servers>\SSMembershipP4.bak
+DataDump_1\<aud servers>\Audit.bak
+DataDump_1\<ses servers>\HelpAdmin.bak
+Systemdump_1\<sql servers>\Master.bak
+Systemdump_1\<sql servers>\Msdb.bak
+
+<01:00-01:59 CHECKS>----------------------------------------
+
+Flatfiles_1\<aud servers>\aud_<aud servers>_YYYYMMDD.exp
+
+EventLogs\<all servers>\app_event.1
+EventLogs\<all servers>\sys_event.1
+Eventlogs\<all servers>\sec_event.1
+registry_1\<all servers>\default
+registry_1\<all servers>\Sam
+registry_1\<all servers>\Security
+registry_1\<all servers>\software
+registry_1\<all servers>\system
+tivoli\<all servers>\trip.txt
+
+<02:00-02:59 CHECKS>----------------------------------------
+
+SS_Logs\<web servers>\<ldapsvc>\inYYMMDD.log
+IIS_Logs\<web servers>\<w3svc>\inYYMMDD.log
+
+<03:00-03:59 CHECKS>----------------------------------------
+
+<04:00-04:59 CHECKS>----------------------------------------
+
+<05:00-05:59 CHECKS>----------------------------------------

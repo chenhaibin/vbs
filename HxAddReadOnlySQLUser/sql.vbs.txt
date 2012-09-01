@@ -1,0 +1,68 @@
+set oConnection = createobject ("ADODB.connection")
+
+' add an nt user login
+' (i'm just setting the user up here...)
+strUser = "matthew"
+strPassword = "blah2"
+strHxInfraUserPassword = "blah"
+strDomainOrComputerName = "DBSED9123"
+
+' add the user to the remote desktop group
+
+' the script below will enumerate the databases and try to add our nt user to each db
+' with db_datareader rights
+
+oConnection.Open 	"Provider=sqloledb;" & _
+			"Data Source=(local);" & _
+			"Initial Catalog=Master;" & _
+			"User ID=HxInfraUser;" & _
+			"Password=" & strHxInfraUserPassword
+
+			'"Integrated Security=SSPI"
+
+'standard sql connectionstring
+'"Driver={SQL Server};Server=strDomainOrComputerName;Database=master;Uid=HxInfraUser;Pwd=strHxInfraUserPassword;" 
+
+'First add a login
+oConnection.Execute ("sp_addlogin 'Matt2', 'MattPassword'")
+
+set objRS = oConnection.Execute("SELECT NAME FROM SYSDATABASES")
+
+	Do while not objRS.eof 
+	
+		strResults = objRS("Name")
+		
+		'wscript.echo strResults
+		
+
+		Select case strResults
+		
+			case "master", "tempdb", "model", "msdb"
+			
+				wscript.echo "skipping " & strResults
+			
+			case else
+			
+				wscript.echo "connecting to... " & strResults 
+			
+				'this is where we've enumerated our database, we now need to				
+				'second, grant login database access
+				
+				wscript.echo "executing grantdbaccess in " & strResults
+
+				oconnection.execute ("Use " & strResults & vbcrlf & "exec sp_grantdbaccess 'Matt2', 'Matt2'")
+
+				wscript.echo "executing addrolemember in " & strResults
+				
+				'third, change his role to db_datareader
+				oconnection.execute ("Use " & strResults & vbcrlf & "EXEC sp_addrolemember 'db_datareader', 'Matt2'")
+
+			
+		End Select
+		
+	
+		objRS.movenext
+	
+		
+
+	Loop

@@ -1,0 +1,15 @@
+# Backout file for Website ipaddress move 
+# Date: 19/10/2000 00:10:26
+# Backout file for Website ipaddress move 
+# Date: 19/10/2000 00:10:26
+# Backout file for Website ipaddress move 
+# Date: 19/10/2000 00:10:26
+95L085673,Administration Web Site,:6
+95L085673,wwwbankhome,255.255.255.0
+95L085673,wwwuserreghome,100.223.2.214
+95L085673,wwwsharesavehome,100.223.2.211
+95L085673,wwwsharehome,100.223.2.210
+95L085673,wwwmortgageshome,100.223.2.213
+95L085673,wwwinsurancehome,100.223.2.212
+95L085673,wwwonlinehome,100.223.2.209
+

@@ -1,0 +1,12 @@
+Q. How can I restrict guest access to Event logs?
+
+A. By default guests and anonymous can view the event log, this may give away important information and so anonymous/guest access can be disabled as follows:
+
+Start the registry editor (regedit.exe) 
+Move to HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\EventLog 
+Move to the subkey Application 
+From the Edit menu select New - DWORD value. Enter a name of RestrictGuestAccess. click OK 
+Double click the new value and set to 1 
+Repeat steps 4 and 5 for the Security and System sub-keys also. 
+In fact this is also governed by the registry rights on the corresponding eventlog paramters (HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\EventLog - application and system). You can even remove Administrators rights to read the files by using the registry rights. Use REGEDT32.EXE to change these rights.
+ 

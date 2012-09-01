@@ -1,0 +1,32 @@
+Microsoft (R) Windows Script Host Version 5.6
+Copyright (C) Microsoft Corporation 1996-2001. All rights reserved.
+
+ ----------------------------------------------
+ Starting Upload of 1.2MB File to host
+ Started Copy at       : 75747.23
+ Finished Copy at      : 75755.41
+ Time Taken (/s)       : 8.17
+ Transfer Speed (MB/s) : 0.14 MB/s (143.36 KB/s)
+ Transfer Speed (Mb/s) : 1.15 Mb/s
+ ----------------------------------------------
+ Starting Download of 1.2MB File from host
+ Started Copy at       : 75755.46
+ Finished Copy at      : 75759.66
+ Time Taken (/s)       : 4.20
+ Transfer Speed (MB/s) : 0.28 MB/s (286.72 KB/s)
+ Transfer Speed (Mb/s) : 2.23 Mb/s
+ ----------------------------------------------
+ Starting Upload of 1.1MB of small files to host
+ Started Copy at       : 75760.17
+ Finished Copy at      : 75781.74
+ Time Taken (/s)       : 21.57
+ Transfer Speed (MB/s) : 0.05 MB/s (51.2 KB/s)
+ Transfer Speed (Mb/s) : 0.38 Mb/s
+ ----------------------------------------------
+ Starting Download of 1.1MB of small files from host
+ Started Copy at       : 75781.8
+ Finished Copy at      : 75791.88
+ Time Taken (/s)       : 10.09
+ Transfer Speed (MB/s) : 0.10 MB/s (102.4 KB/s)
+ Transfer Speed (Mb/s) : 0.82 Mb/s
+ ----------------------------------------------

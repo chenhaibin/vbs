@@ -1,0 +1,6 @@
+Microsoft (R) Windows Scripting Host Version 5.0 for Windows
+Copyright (C) Microsoft Corporation 1996-1997. All rights reserved.
+
+Version of Windows Scripting host : 5.0
+Version of Vbscript : 5.0.3715
+Version of WSH Components :  Unknown

@@ -1,0 +1,6 @@
+backupdir 	-> localstore_1
+		-> localstore_2
+		-> localstore_3
+
+localstore_1	-> repository_1
+		-> repository_7

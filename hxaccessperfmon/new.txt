@@ -1,0 +1,16 @@
+c:\winnt\system32\perfC009.BAK Everyone:(OI)(CI)F 
+
+c:\winnt\system32\perfc009.dat Everyone:(OI)(CI)F 
+
+c:\winnt\system32\PERFCTRS.DLL Everyone:(OI)(CI)F 
+
+c:\winnt\system32\perfH009.BAK Everyone:(OI)(CI)F 
+
+c:\winnt\system32\perfh009.dat Everyone:(OI)(CI)F 
+
+c:\winnt\system32\perfmon.cnt Everyone:(OI)(CI)F 
+
+c:\winnt\system32\PERFMON.EXE Everyone:(OI)(CI)F 
+
+c:\winnt\system32\perfmon.hlp Everyone:(OI)(CI)F 
+

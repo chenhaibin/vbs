@@ -1,0 +1,123 @@
+************* 
+ 
+The current date is: Tue 26/09/2000 
+Enter the new date: (dd-mm-yy)  
+The current time is:  8:57:29.70
+Enter the new time:  
+ 
+c:\winnt\system32\perfc009.dat Everyone:R 
+
+c:\winnt\system32\perfh009.dat Everyone:R 
+
+processed file:  c:\winnt\system32\perfc009.dat
+processed file:  c:\winnt\system32\perfh009.dat
+ 
+c:\winnt\system32\perfc009.dat Everyone:R 
+                               CORPORATE_SITE\16085:R 
+
+c:\winnt\system32\perfh009.dat Everyone:R 
+                               CORPORATE_SITE\16085:R 
+
+Validating account <corporate_site\16085> - OK.
+DoneValidating account <corporate_site\16085> - OK.
+Done************* 
+ 
+The current date is: Tue 26/09/2000 
+Enter the new date: (dd-mm-yy)  
+The current time is:  9:00:16.94
+Enter the new time:  
+ 
+c:\winnt\system32\perfc009.dat Everyone:R 
+                               CORPORATE_SITE\16085:R 
+
+c:\winnt\system32\perfh009.dat Everyone:R 
+                               CORPORATE_SITE\16085:R 
+
+Displays or modifies access control lists (ACLs) of files
+
+XCACLS filename [/T] [/E|/X] [/C] [/G user:perm;spec] [/R user [...]]
+               [/P user:perm;spec [...]] [/D user [...]] [/Y]
+   filename           Displays ACLs.
+   /T                 Changes ACLs of specified files in
+                      the current directory and all subdirectories.
+   /E                 Edit ACL instead of replacing it.
+   /X                 Same as /E except it only affects the ACEs that the 
+                      specified users already own.
+   /C                 Continue on access denied errors.
+   /G user:perm;spec  Grant specified user access rights.
+                      Perm can be: R  Read
+                                   C  Change (write)
+                                   F  Full control
+                                   P  Change Permissions (Special access)
+                                   O  Take Ownership (Special access)
+                                   X  EXecute (Special access)
+                                   E  REad (Special access)
+                                   W  Write (Special access)
+                                   D  Delete (Special access)
+                      Spec can be the same as perm and will only be
+Press ENTER to continue...
+                           applied to a directory. In this case, Perm
+                           will be used for file inheritence in this
+                           directory. If not omitted: Spec=Perm. Special values
+                           for Spec only:
+                                   T  Not Specified (for file inherit, 
+                                      only for dirs valid)
+                                      At least one access right has to follow!
+                                      Entries between ';' and T will be ignored!
+   /R user            Revoke specified user's access rights.
+   /P user:perm;spec  Replace specified user's access rights.
+                      for access right specification see /G option
+   /D user            Deny specified user access.
+   /Y                 Replace user's rights without verify
+
+Wildcards can be used to specify more that one file in a command.
+You can specify more than one user in a command.
+You can combine access rights.
+Displays or modifies access control lists (ACLs) of files
+
+XCACLS filename [/T] [/E|/X] [/C] [/G user:perm;spec] [/R user [...]]
+               [/P user:perm;spec [...]] [/D user [...]] [/Y]
+   filename           Displays ACLs.
+   /T                 Changes ACLs of specified files in
+                      the current directory and all subdirectories.
+   /E                 Edit ACL instead of replacing it.
+   /X                 Same as /E except it only affects the ACEs that the 
+                      specified users already own.
+   /C                 Continue on access denied errors.
+   /G user:perm;spec  Grant specified user access rights.
+                      Perm can be: R  Read
+                                   C  Change (write)
+                                   F  Full control
+                                   P  Change Permissions (Special access)
+                                   O  Take Ownership (Special access)
+                                   X  EXecute (Special access)
+                                   E  REad (Special access)
+                                   W  Write (Special access)
+                                   D  Delete (Special access)
+                      Spec can be the same as perm and will only be
+Press ENTER to continue...
+                           applied to a directory. In this case, Perm
+                           will be used for file inheritence in this
+                           directory. If not omitted: Spec=Perm. Special values
+                           for Spec only:
+                                   T  Not Specified (for file inherit, 
+                                      only for dirs valid)
+                                      At least one access right has to follow!
+                                      Entries between ';' and T will be ignored!
+   /R user            Revoke specified user's access rights.
+   /P user:perm;spec  Replace specified user's access rights.
+                      for access right specification see /G option
+   /D user            Deny specified user access.
+   /Y                 Replace user's rights without verify
+
+Wildcards can be used to specify more that one file in a command.
+You can specify more than one user in a command.
+You can combine access rights.
+ 
+c:\winnt\system32\perfc009.dat Everyone:R 
+                               CORPORATE_SITE\16085:R 
+
+c:\winnt\system32\perfh009.dat Everyone:R 
+                               CORPORATE_SITE\16085:R 
+
+Validating account </display> Error 1332DoneValidating account </display> Error 1332Done

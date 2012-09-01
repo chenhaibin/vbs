@@ -1,0 +1,99 @@
+
+on error resume next
+
+set objfso = wscript.createobject ("scripting.filesystemobject")
+
+'specify root folder
+'-------------------
+strroot = "h:\work"
+strlength = Len (strroot) + 2
+
+'specify destination
+'--------------------
+strdestination = "z:\test"
+
+
+'check destination exists
+'------------------------
+if objfso.folderexists (strdestination) = False then
+	objfso.createfolder strdestination
+	wscript.echo date & " " & time & " Folder " & strdestination & " being created"
+else
+	wscript.echo date & " " & time & " Folder " & strdestination & " already exists"
+end if
+
+
+'Make a directory which gets its name from the date.
+'---------------------------------------------------
+strdate = replace (date, "/", "")
+strdestination = strdestination & "\" & strdate
+
+if objfso.folderexists (strdestination) = False then
+	objfso.createfolder strdestination
+	wscript.echo date & " " & time & " Folder " & strdestination & " being created"
+else
+	wscript.echo date & " " & time & " Folder " & strdestination & " already exists"
+end if
+
+Listfoldersandfiles strroot
+
+
+'-------------------func's and sub's-------------------------------
+
+sub ListFoldersandfiles(path)
+
+	dim newfolder, fs, folder, file, item, url
+	
+	strdate = date
+	strtime = time
+	
+	'start filesystem object
+	set fs = CreateObject("Scripting.FileSystemObject")
+	
+	'start folder object
+	set folder = fs.GetFolder(path)
+
+	
+	for each item in folder.SubFolders
+		
+		'wscript.echo "[folder]: " & item.name
+		if item.path <> "" then 
+		strbackupfolder = item.path
+		strbackupfolder = Mid (strbackupfolder, strlength)
+		strbackupfolder = strdestination & "\" & strbackupfolder
+		
+		'wscript.echo strbackupfolder
+			if fs.folderexists (strbackupfolder) = False then
+			fs.createfolder strbackupfolder
+				wscript.echo strdate & " " & strtime & " Folder " & strbackupfolder & " being created"
+			else
+				wscript.echo strdate & " " & strtime & " Folder " & strbackupfolder & " already exists"
+			end if		
+		end if
+		ListFoldersandfiles(item.Path)
+	next
+
+	'Display files.
+	for each item in folder.Files
+		'wscript.echo " [file]: " & item.name
+		strfilepath = item.path
+		strfilepath = Mid (strfilepath, strlength)
+		strfilepath = strdestination & "\" & strfilepath
+		'wscript.echo strfilepath
+		fs.copyfile item.path, strfilepath
+
+		if fs.fileexists (strfilepath) = true then
+			wscript.echo strdate & " " & strTime & " File backed up from " & item.path & " => " & strfilepath
+		else
+			wscript.echo strdate & " " & strTime & " File " & item.path & " failed to backup"
+		end if
+		
+		if err.number <> 0 then
+			wscript.echo "** An Error Occured! Please check Logs: " & Err.Description & "**"
+			wscript.quit
+		end if
+
+	next
+	
+
+end sub

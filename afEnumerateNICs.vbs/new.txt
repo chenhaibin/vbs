@@ -1,0 +1,1226 @@
+Microsoft (R) Windows Script Host Version 5.6
+Copyright (C) Microsoft Corporation 1996-2001. All rights reserved.
+
+Searching for All NICs......
+---------------------------
+
+  ArpAlwaysSourceRoute: 
+  ArpUseEtherSNAP: 
+  Caption: [00000001] Infrared Port
+  DatabasePath: 
+  DeadGWDetectEnabled: 
+  DefaultIPGateway: 
+  DefaultTOS: 
+  DefaultTTL: 
+  Description: Infrared Port
+  DHCPEnabled: False
+  DHCPLeaseExpires: 
+  DHCPLeaseObtained: 
+  DHCPServer: 
+  DNSDomain: 
+  DNSDomainSuffixSearchOrder: 
+  DNSEnabledForWINSResolution: 
+  DNSHostName: 
+  DNSServerSearchOrder: 
+  DomainDNSRegistrationEnabled: 
+  ForwardBufferMemory: 
+  FullDNSRegistrationEnabled: 
+  GatewayCostMetric: 
+  IGMPLevel: 
+  Index: 1
+  IPAddress: 
+  IPConnectionMetric: 
+  IPEnabled: False
+  IPFilterSecurityEnabled: 
+  IPPortSecurityEnabled: 
+  IPSecPermitIPProtocols: 
+  IPSecPermitTCPPorts: 
+  IPSecPermitUDPPorts: 
+  IPSubnet: 
+  IPUseZeroBroadcast: 
+  IPXAddress: 
+  IPXEnabled: False
+  IPXFrameType: 
+  IPXMediaType: 
+  IPXNetworkNumber: 
+  IPXVirtualNetNumber: 
+  KeepAliveInterval: 
+  KeepAliveTime: 
+  MACAddress: 
+  MTU: 
+  NumForwardPackets: 
+  PMTUBHDetectEnabled: 
+  PMTUDiscoveryEnabled: 
+  ServiceName: Rasirda
+  SettingID: {4A61632F-58DE-4FC6-BDC1-08967D8DA15C}
+  TcpipNetbiosOptions: 
+  TcpMaxConnectRetransmissions: 
+  TcpMaxDataRetransmissions: 
+  TcpNumConnections: 
+  TcpUseRFC1122UrgentPointer: 
+  TcpWindowSize: 
+  WINSEnableLMHostsLookup: 
+  WINSHostLookupFile: 
+  WINSPrimaryServer: 
+  WINSScopeID: 
+  WINSSecondaryServer: 
+ ---------------------------------
+  ArpAlwaysSourceRoute: 
+  ArpUseEtherSNAP: 
+  Caption: [00000002] Xircom CardBus Ethernet 100 + Modem 56 (Ethernet Interface)
+  DatabasePath: %SystemRoot%\System32\drivers\etc
+  DeadGWDetectEnabled: 
+  DefaultIPGateway: 
+  DefaultTOS: 
+  DefaultTTL: 
+  Description: Xircom CardBus Ethernet 100 + Modem 56 (Ethernet Interface)
+  DHCPEnabled: False
+  DHCPLeaseExpires: 
+  DHCPLeaseObtained: 
+  DHCPServer: 
+  DNSDomain: 
+  DNSDomainSuffixSearchOrder: 
+  DNSEnabledForWINSResolution: False
+  DNSHostName: 95l085673
+  DNSServerSearchOrder: ** VarType is Array **
+  DomainDNSRegistrationEnabled: 
+  ForwardBufferMemory: 
+  FullDNSRegistrationEnabled: 
+  GatewayCostMetric: 
+  IGMPLevel: 
+  Index: 2
+  IPAddress: ** VarType is Array **
+  IPConnectionMetric: 1
+  IPEnabled: True
+  IPFilterSecurityEnabled: False
+  IPPortSecurityEnabled: 
+  IPSecPermitIPProtocols: ** VarType is Array **
+  IPSecPermitTCPPorts: ** VarType is Array **
+  IPSecPermitUDPPorts: ** VarType is Array **
+  IPSubnet: ** VarType is Array **
+  IPUseZeroBroadcast: 
+  IPXAddress: 
+  IPXEnabled: False
+  IPXFrameType: 
+  IPXMediaType: 
+  IPXNetworkNumber: 
+  IPXVirtualNetNumber: 
+  KeepAliveInterval: 
+  KeepAliveTime: 
+  MACAddress: 00:10:A4:C0:F3:86
+  MTU: 
+  NumForwardPackets: 
+  PMTUBHDetectEnabled: 
+  PMTUDiscoveryEnabled: 
+  ServiceName: CBEN5
+  SettingID: {154FD649-28B5-4E54-B454-3FBAD2E0910D}
+  TcpipNetbiosOptions: 0
+  TcpMaxConnectRetransmissions: 
+  TcpMaxDataRetransmissions: 
+  TcpNumConnections: 
+  TcpUseRFC1122UrgentPointer: 
+  TcpWindowSize: 
+  WINSEnableLMHostsLookup: True
+  WINSHostLookupFile: 
+  WINSPrimaryServer: 
+  WINSScopeID: 
+  WINSSecondaryServer: 
+ ---------------------------------
+  ArpAlwaysSourceRoute: 
+  ArpUseEtherSNAP: 
+  Caption: [00000003] RAS Async Adapter
+  DatabasePath: 
+  DeadGWDetectEnabled: 
+  DefaultIPGateway: 
+  DefaultTOS: 
+  DefaultTTL: 
+  Description: RAS Async Adapter
+  DHCPEnabled: False
+  DHCPLeaseExpires: 
+  DHCPLeaseObtained: 
+  DHCPServer: 
+  DNSDomain: 
+  DNSDomainSuffixSearchOrder: 
+  DNSEnabledForWINSResolution: 
+  DNSHostName: 
+  DNSServerSearchOrder: 
+  DomainDNSRegistrationEnabled: 
+  ForwardBufferMemory: 
+  FullDNSRegistrationEnabled: 
+  GatewayCostMetric: 
+  IGMPLevel: 
+  Index: 3
+  IPAddress: 
+  IPConnectionMetric: 
+  IPEnabled: False
+  IPFilterSecurityEnabled: 
+  IPPortSecurityEnabled: 
+  IPSecPermitIPProtocols: 
+  IPSecPermitTCPPorts: 
+  IPSecPermitUDPPorts: 
+  IPSubnet: 
+  IPUseZeroBroadcast: 
+  IPXAddress: 
+  IPXEnabled: False
+  IPXFrameType: 
+  IPXMediaType: 
+  IPXNetworkNumber: 
+  IPXVirtualNetNumber: 
+  KeepAliveInterval: 
+  KeepAliveTime: 
+  MACAddress: 20:41:53:59:4E:FF
+  MTU: 
+  NumForwardPackets: 
+  PMTUBHDetectEnabled: 
+  PMTUDiscoveryEnabled: 
+  ServiceName: AsyncMac
+  SettingID: {C8E7FBDF-8175-43EC-B960-5EF57CBBC354}
+  TcpipNetbiosOptions: 
+  TcpMaxConnectRetransmissions: 
+  TcpMaxDataRetransmissions: 
+  TcpNumConnections: 
+  TcpUseRFC1122UrgentPointer: 
+  TcpWindowSize: 
+  WINSEnableLMHostsLookup: 
+  WINSHostLookupFile: 
+  WINSPrimaryServer: 
+  WINSScopeID: 
+  WINSSecondaryServer: 
+ ---------------------------------
+  ArpAlwaysSourceRoute: 
+  ArpUseEtherSNAP: 
+  Caption: [00000004] Madge Smart 16/4 PCMCIA Ringnode Mk2
+  DatabasePath: %SystemRoot%\System32\drivers\etc
+  DeadGWDetectEnabled: 
+  DefaultIPGateway: 
+  DefaultTOS: 
+  DefaultTTL: 
+  Description: Microsoft Loopback Adapter
+  DHCPEnabled: False
+  DHCPLeaseExpires: 
+  DHCPLeaseObtained: 
+  DHCPServer: 
+  DNSDomain: halifax.hxgroup.com
+  DNSDomainSuffixSearchOrder: 
+  DNSEnabledForWINSResolution: False
+  DNSHostName: 95l085673
+  DNSServerSearchOrder: ** VarType is Array **
+  DomainDNSRegistrationEnabled: 
+  ForwardBufferMemory: 
+  FullDNSRegistrationEnabled: 
+  GatewayCostMetric: 
+  IGMPLevel: 
+  Index: 4
+  IPAddress: ** VarType is Array **
+  IPConnectionMetric: 30
+  IPEnabled: True
+  IPFilterSecurityEnabled: False
+  IPPortSecurityEnabled: 
+  IPSecPermitIPProtocols: ** VarType is Array **
+  IPSecPermitTCPPorts: ** VarType is Array **
+  IPSecPermitUDPPorts: ** VarType is Array **
+  IPSubnet: ** VarType is Array **
+  IPUseZeroBroadcast: 
+  IPXAddress: 
+  IPXEnabled: False
+  IPXFrameType: 
+  IPXMediaType: 
+  IPXNetworkNumber: 
+  IPXVirtualNetNumber: 
+  KeepAliveInterval: 
+  KeepAliveTime: 
+  MACAddress: 02:00:4C:4F:4F:50
+  MTU: 
+  NumForwardPackets: 
+  PMTUBHDetectEnabled: 
+  PMTUDiscoveryEnabled: 
+  ServiceName: MadgeTRN
+  SettingID: {5A477448-8E77-4D3B-A1FA-08F2B81138B3}
+  TcpipNetbiosOptions: 0
+  TcpMaxConnectRetransmissions: 
+  TcpMaxDataRetransmissions: 
+  TcpNumConnections: 
+  TcpUseRFC1122UrgentPointer: 
+  TcpWindowSize: 
+  WINSEnableLMHostsLookup: True
+  WINSHostLookupFile: 
+  WINSPrimaryServer: 
+  WINSScopeID: 
+  WINSSecondaryServer: 
+ ---------------------------------
+  ArpAlwaysSourceRoute: 
+  ArpUseEtherSNAP: 
+  Caption: [00000005] WAN Miniport (L2TP)
+  DatabasePath: 
+  DeadGWDetectEnabled: 
+  DefaultIPGateway: 
+  DefaultTOS: 
+  DefaultTTL: 
+  Description: WAN Miniport (L2TP)
+  DHCPEnabled: False
+  DHCPLeaseExpires: 
+  DHCPLeaseObtained: 
+  DHCPServer: 
+  DNSDomain: 
+  DNSDomainSuffixSearchOrder: 
+  DNSEnabledForWINSResolution: 
+  DNSHostName: 
+  DNSServerSearchOrder: 
+  DomainDNSRegistrationEnabled: 
+  ForwardBufferMemory: 
+  FullDNSRegistrationEnabled: 
+  GatewayCostMetric: 
+  IGMPLevel: 
+  Index: 5
+  IPAddress: 
+  IPConnectionMetric: 
+  IPEnabled: False
+  IPFilterSecurityEnabled: 
+  IPPortSecurityEnabled: 
+  IPSecPermitIPProtocols: 
+  IPSecPermitTCPPorts: 
+  IPSecPermitUDPPorts: 
+  IPSubnet: 
+  IPUseZeroBroadcast: 
+  IPXAddress: 
+  IPXEnabled: False
+  IPXFrameType: 
+  IPXMediaType: 
+  IPXNetworkNumber: 
+  IPXVirtualNetNumber: 
+  KeepAliveInterval: 
+  KeepAliveTime: 
+  MACAddress: 
+  MTU: 
+  NumForwardPackets: 
+  PMTUBHDetectEnabled: 
+  PMTUDiscoveryEnabled: 
+  ServiceName: Rasl2tp
+  SettingID: {02532801-3F3A-4858-BFCD-76DAB52020B0}
+  TcpipNetbiosOptions: 
+  TcpMaxConnectRetransmissions: 
+  TcpMaxDataRetransmissions: 
+  TcpNumConnections: 
+  TcpUseRFC1122UrgentPointer: 
+  TcpWindowSize: 
+  WINSEnableLMHostsLookup: 
+  WINSHostLookupFile: 
+  WINSPrimaryServer: 
+  WINSScopeID: 
+  WINSSecondaryServer: 
+ ---------------------------------
+  ArpAlwaysSourceRoute: 
+  ArpUseEtherSNAP: 
+  Caption: [00000006] WAN Miniport (PPTP)
+  DatabasePath: 
+  DeadGWDetectEnabled: 
+  DefaultIPGateway: 
+  DefaultTOS: 
+  DefaultTTL: 
+  Description: WAN Miniport (PPTP)
+  DHCPEnabled: False
+  DHCPLeaseExpires: 
+  DHCPLeaseObtained: 
+  DHCPServer: 
+  DNSDomain: 
+  DNSDomainSuffixSearchOrder: 
+  DNSEnabledForWINSResolution: 
+  DNSHostName: 
+  DNSServerSearchOrder: 
+  DomainDNSRegistrationEnabled: 
+  ForwardBufferMemory: 
+  FullDNSRegistrationEnabled: 
+  GatewayCostMetric: 
+  IGMPLevel: 
+  Index: 6
+  IPAddress: 
+  IPConnectionMetric: 
+  IPEnabled: False
+  IPFilterSecurityEnabled: 
+  IPPortSecurityEnabled: 
+  IPSecPermitIPProtocols: 
+  IPSecPermitTCPPorts: 
+  IPSecPermitUDPPorts: 
+  IPSubnet: 
+  IPUseZeroBroadcast: 
+  IPXAddress: 
+  IPXEnabled: False
+  IPXFrameType: 
+  IPXMediaType: 
+  IPXNetworkNumber: 
+  IPXVirtualNetNumber: 
+  KeepAliveInterval: 
+  KeepAliveTime: 
+  MACAddress: 50:50:54:50:30:30
+  MTU: 
+  NumForwardPackets: 
+  PMTUBHDetectEnabled: 
+  PMTUDiscoveryEnabled: 
+  ServiceName: PptpMiniport
+  SettingID: {0B26B8DF-9D69-462E-AB2A-EA3B30E83658}
+  TcpipNetbiosOptions: 
+  TcpMaxConnectRetransmissions: 
+  TcpMaxDataRetransmissions: 
+  TcpNumConnections: 
+  TcpUseRFC1122UrgentPointer: 
+  TcpWindowSize: 
+  WINSEnableLMHostsLookup: 
+  WINSHostLookupFile: 
+  WINSPrimaryServer: 
+  WINSScopeID: 
+  WINSSecondaryServer: 
+ ---------------------------------
+  ArpAlwaysSourceRoute: 
+  ArpUseEtherSNAP: 
+  Caption: [00000007] WAN Miniport (PPPOE)
+  DatabasePath: 
+  DeadGWDetectEnabled: 
+  DefaultIPGateway: 
+  DefaultTOS: 
+  DefaultTTL: 
+  Description: WAN Miniport (PPPOE)
+  DHCPEnabled: False
+  DHCPLeaseExpires: 
+  DHCPLeaseObtained: 
+  DHCPServer: 
+  DNSDomain: 
+  DNSDomainSuffixSearchOrder: 
+  DNSEnabledForWINSResolution: 
+  DNSHostName: 
+  DNSServerSearchOrder: 
+  DomainDNSRegistrationEnabled: 
+  ForwardBufferMemory: 
+  FullDNSRegistrationEnabled: 
+  GatewayCostMetric: 
+  IGMPLevel: 
+  Index: 7
+  IPAddress: 
+  IPConnectionMetric: 
+  IPEnabled: False
+  IPFilterSecurityEnabled: 
+  IPPortSecurityEnabled: 
+  IPSecPermitIPProtocols: 
+  IPSecPermitTCPPorts: 
+  IPSecPermitUDPPorts: 
+  IPSubnet: 
+  IPUseZeroBroadcast: 
+  IPXAddress: 
+  IPXEnabled: False
+  IPXFrameType: 
+  IPXMediaType: 
+  IPXNetworkNumber: 
+  IPXVirtualNetNumber: 
+  KeepAliveInterval: 
+  KeepAliveTime: 
+  MACAddress: 33:50:6F:45:30:30
+  MTU: 
+  NumForwardPackets: 
+  PMTUBHDetectEnabled: 
+  PMTUDiscoveryEnabled: 
+  ServiceName: RasPppoe
+  SettingID: {EFDF0DEE-55DD-4ABE-B779-A543DF59548B}
+  TcpipNetbiosOptions: 
+  TcpMaxConnectRetransmissions: 
+  TcpMaxDataRetransmissions: 
+  TcpNumConnections: 
+  TcpUseRFC1122UrgentPointer: 
+  TcpWindowSize: 
+  WINSEnableLMHostsLookup: 
+  WINSHostLookupFile: 
+  WINSPrimaryServer: 
+  WINSScopeID: 
+  WINSSecondaryServer: 
+ ---------------------------------
+  ArpAlwaysSourceRoute: 
+  ArpUseEtherSNAP: 
+  Caption: [00000008] Direct Parallel
+  DatabasePath: 
+  DeadGWDetectEnabled: 
+  DefaultIPGateway: 
+  DefaultTOS: 
+  DefaultTTL: 
+  Description: Direct Parallel
+  DHCPEnabled: False
+  DHCPLeaseExpires: 
+  DHCPLeaseObtained: 
+  DHCPServer: 
+  DNSDomain: 
+  DNSDomainSuffixSearchOrder: 
+  DNSEnabledForWINSResolution: 
+  DNSHostName: 
+  DNSServerSearchOrder: 
+  DomainDNSRegistrationEnabled: 
+  ForwardBufferMemory: 
+  FullDNSRegistrationEnabled: 
+  GatewayCostMetric: 
+  IGMPLevel: 
+  Index: 8
+  IPAddress: 
+  IPConnectionMetric: 
+  IPEnabled: False
+  IPFilterSecurityEnabled: 
+  IPPortSecurityEnabled: 
+  IPSecPermitIPProtocols: 
+  IPSecPermitTCPPorts: 
+  IPSecPermitUDPPorts: 
+  IPSubnet: 
+  IPUseZeroBroadcast: 
+  IPXAddress: 
+  IPXEnabled: False
+  IPXFrameType: 
+  IPXMediaType: 
+  IPXNetworkNumber: 
+  IPXVirtualNetNumber: 
+  KeepAliveInterval: 
+  KeepAliveTime: 
+  MACAddress: 
+  MTU: 
+  NumForwardPackets: 
+  PMTUBHDetectEnabled: 
+  PMTUDiscoveryEnabled: 
+  ServiceName: Raspti
+  SettingID: {1ABAA41F-A8E3-41A8-9A27-F4DC55AB17DE}
+  TcpipNetbiosOptions: 
+  TcpMaxConnectRetransmissions: 
+  TcpMaxDataRetransmissions: 
+  TcpNumConnections: 
+  TcpUseRFC1122UrgentPointer: 
+  TcpWindowSize: 
+  WINSEnableLMHostsLookup: 
+  WINSHostLookupFile: 
+  WINSPrimaryServer: 
+  WINSScopeID: 
+  WINSSecondaryServer: 
+ ---------------------------------
+  ArpAlwaysSourceRoute: 
+  ArpUseEtherSNAP: 
+  Caption: [00000009] WAN Miniport (IP)
+  DatabasePath: 
+  DeadGWDetectEnabled: 
+  DefaultIPGateway: 
+  DefaultTOS: 
+  DefaultTTL: 
+  Description: WAN Miniport (IP)
+  DHCPEnabled: False
+  DHCPLeaseExpires: 
+  DHCPLeaseObtained: 
+  DHCPServer: 
+  DNSDomain: 
+  DNSDomainSuffixSearchOrder: 
+  DNSEnabledForWINSResolution: 
+  DNSHostName: 
+  DNSServerSearchOrder: 
+  DomainDNSRegistrationEnabled: 
+  ForwardBufferMemory: 
+  FullDNSRegistrationEnabled: 
+  GatewayCostMetric: 
+  IGMPLevel: 
+  Index: 9
+  IPAddress: 
+  IPConnectionMetric: 
+  IPEnabled: False
+  IPFilterSecurityEnabled: 
+  IPPortSecurityEnabled: 
+  IPSecPermitIPProtocols: 
+  IPSecPermitTCPPorts: 
+  IPSecPermitUDPPorts: 
+  IPSubnet: 
+  IPUseZeroBroadcast: 
+  IPXAddress: 
+  IPXEnabled: False
+  IPXFrameType: 
+  IPXMediaType: 
+  IPXNetworkNumber: 
+  IPXVirtualNetNumber: 
+  KeepAliveInterval: 
+  KeepAliveTime: 
+  MACAddress: 
+  MTU: 
+  NumForwardPackets: 
+  PMTUBHDetectEnabled: 
+  PMTUDiscoveryEnabled: 
+  ServiceName: NdisWan
+  SettingID: {135A16D5-4FB6-42AC-AF8A-B379BADC5493}
+  TcpipNetbiosOptions: 
+  TcpMaxConnectRetransmissions: 
+  TcpMaxDataRetransmissions: 
+  TcpNumConnections: 
+  TcpUseRFC1122UrgentPointer: 
+  TcpWindowSize: 
+  WINSEnableLMHostsLookup: 
+  WINSHostLookupFile: 
+  WINSPrimaryServer: 
+  WINSScopeID: 
+  WINSSecondaryServer: 
+ ---------------------------------
+  ArpAlwaysSourceRoute: 
+  ArpUseEtherSNAP: 
+  Caption: [00000010] Packet Scheduler Miniport
+  DatabasePath: 
+  DeadGWDetectEnabled: 
+  DefaultIPGateway: 
+  DefaultTOS: 
+  DefaultTTL: 
+  Description: Packet Scheduler Miniport
+  DHCPEnabled: False
+  DHCPLeaseExpires: 
+  DHCPLeaseObtained: 
+  DHCPServer: 
+  DNSDomain: 
+  DNSDomainSuffixSearchOrder: 
+  DNSEnabledForWINSResolution: 
+  DNSHostName: 
+  DNSServerSearchOrder: 
+  DomainDNSRegistrationEnabled: 
+  ForwardBufferMemory: 
+  FullDNSRegistrationEnabled: 
+  GatewayCostMetric: 
+  IGMPLevel: 
+  Index: 10
+  IPAddress: 
+  IPConnectionMetric: 
+  IPEnabled: False
+  IPFilterSecurityEnabled: 
+  IPPortSecurityEnabled: 
+  IPSecPermitIPProtocols: 
+  IPSecPermitTCPPorts: 
+  IPSecPermitUDPPorts: 
+  IPSubnet: 
+  IPUseZeroBroadcast: 
+  IPXAddress: 
+  IPXEnabled: False
+  IPXFrameType: 
+  IPXMediaType: 
+  IPXNetworkNumber: 
+  IPXVirtualNetNumber: 
+  KeepAliveInterval: 
+  KeepAliveTime: 
+  MACAddress: A2:19:20:52:41:53
+  MTU: 
+  NumForwardPackets: 
+  PMTUBHDetectEnabled: 
+  PMTUDiscoveryEnabled: 
+  ServiceName: 
+  SettingID: {203E87AD-9E51-4254-A8EB-9EF9B4C5DFF1}
+  TcpipNetbiosOptions: 
+  TcpMaxConnectRetransmissions: 
+  TcpMaxDataRetransmissions: 
+  TcpNumConnections: 
+  TcpUseRFC1122UrgentPointer: 
+  TcpWindowSize: 
+  WINSEnableLMHostsLookup: 
+  WINSHostLookupFile: 
+  WINSPrimaryServer: 
+  WINSScopeID: 
+  WINSSecondaryServer: 
+ ---------------------------------
+  ArpAlwaysSourceRoute: 
+  ArpUseEtherSNAP: 
+  Caption: [00000011] Packet Scheduler Miniport
+  DatabasePath: 
+  DeadGWDetectEnabled: 
+  DefaultIPGateway: 
+  DefaultTOS: 
+  DefaultTTL: 
+  Description: Packet Scheduler Miniport
+  DHCPEnabled: False
+  DHCPLeaseExpires: 
+  DHCPLeaseObtained: 
+  DHCPServer: 
+  DNSDomain: 
+  DNSDomainSuffixSearchOrder: 
+  DNSEnabledForWINSResolution: 
+  DNSHostName: 
+  DNSServerSearchOrder: 
+  DomainDNSRegistrationEnabled: 
+  ForwardBufferMemory: 
+  FullDNSRegistrationEnabled: 
+  GatewayCostMetric: 
+  IGMPLevel: 
+  Index: 11
+  IPAddress: 
+  IPConnectionMetric: 
+  IPEnabled: False
+  IPFilterSecurityEnabled: 
+  IPPortSecurityEnabled: 
+  IPSecPermitIPProtocols: 
+  IPSecPermitTCPPorts: 
+  IPSecPermitUDPPorts: 
+  IPSubnet: 
+  IPUseZeroBroadcast: 
+  IPXAddress: 
+  IPXEnabled: False
+  IPXFrameType: 
+  IPXMediaType: 
+  IPXNetworkNumber: 
+  IPXVirtualNetNumber: 
+  KeepAliveInterval: 
+  KeepAliveTime: 
+  MACAddress: 
+  MTU: 
+  NumForwardPackets: 
+  PMTUBHDetectEnabled: 
+  PMTUDiscoveryEnabled: 
+  ServiceName: 
+  SettingID: {B086A4E6-A568-4FC1-B21E-3ACB3527AD5F}
+  TcpipNetbiosOptions: 
+  TcpMaxConnectRetransmissions: 
+  TcpMaxDataRetransmissions: 
+  TcpNumConnections: 
+  TcpUseRFC1122UrgentPointer: 
+  TcpWindowSize: 
+  WINSEnableLMHostsLookup: 
+  WINSHostLookupFile: 
+  WINSPrimaryServer: 
+  WINSScopeID: 
+  WINSSecondaryServer: 
+ ---------------------------------
+  ArpAlwaysSourceRoute: 
+  ArpUseEtherSNAP: 
+  Caption: [00000012] VMware Virtual Ethernet Adapter (basic host-only support for VMnet1)
+  DatabasePath: %SystemRoot%\System32\drivers\etc
+  DeadGWDetectEnabled: 
+  DefaultIPGateway: 
+  DefaultTOS: 
+  DefaultTTL: 
+  Description: VMware Virtual Ethernet Adapter (basic host-only support for VMnet1)
+  DHCPEnabled: True
+  DHCPLeaseExpires: 20020110223948.000000+000
+  DHCPLeaseObtained: 20020110220948.000000+000
+  DHCPServer: 192.168.0.254
+  DNSDomain: 
+  DNSDomainSuffixSearchOrder: 
+  DNSEnabledForWINSResolution: False
+  DNSHostName: 95l085673
+  DNSServerSearchOrder: 
+  DomainDNSRegistrationEnabled: 
+  ForwardBufferMemory: 
+  FullDNSRegistrationEnabled: 
+  GatewayCostMetric: 
+  IGMPLevel: 
+  Index: 12
+  IPAddress: ** VarType is Array **
+  IPConnectionMetric: 30
+  IPEnabled: True
+  IPFilterSecurityEnabled: False
+  IPPortSecurityEnabled: 
+  IPSecPermitIPProtocols: ** VarType is Array **
+  IPSecPermitTCPPorts: ** VarType is Array **
+  IPSecPermitUDPPorts: ** VarType is Array **
+  IPSubnet: ** VarType is Array **
+  IPUseZeroBroadcast: 
+  IPXAddress: 
+  IPXEnabled: False
+  IPXFrameType: 
+  IPXMediaType: 
+  IPXNetworkNumber: 
+  IPXVirtualNetNumber: 
+  KeepAliveInterval: 
+  KeepAliveTime: 
+  MACAddress: 00:50:56:C0:00:01
+  MTU: 
+  NumForwardPackets: 
+  PMTUBHDetectEnabled: 
+  PMTUDiscoveryEnabled: 
+  ServiceName: VMnetx
+  SettingID: {A17DCE94-8D27-44FF-AF6E-0FB7B22BF5B2}
+  TcpipNetbiosOptions: 0
+  TcpMaxConnectRetransmissions: 
+  TcpMaxDataRetransmissions: 
+  TcpNumConnections: 
+  TcpUseRFC1122UrgentPointer: 
+  TcpWindowSize: 
+  WINSEnableLMHostsLookup: True
+  WINSHostLookupFile: 
+  WINSPrimaryServer: 
+  WINSScopeID: 
+  WINSSecondaryServer: 
+ ---------------------------------
+  ArpAlwaysSourceRoute: 
+  ArpUseEtherSNAP: 
+  Caption: [00000013] Microsoft Loopback Adapter
+  DatabasePath: %SystemRoot%\System32\drivers\etc
+  DeadGWDetectEnabled: 
+  DefaultIPGateway: 
+  DefaultTOS: 
+  DefaultTTL: 
+  Description: Microsoft Loopback Adapter
+  DHCPEnabled: False
+  DHCPLeaseExpires: 
+  DHCPLeaseObtained: 
+  DHCPServer: 
+  DNSDomain: 
+  DNSDomainSuffixSearchOrder: 
+  DNSEnabledForWINSResolution: False
+  DNSHostName: 95l085673
+  DNSServerSearchOrder: 
+  DomainDNSRegistrationEnabled: 
+  ForwardBufferMemory: 
+  FullDNSRegistrationEnabled: 
+  GatewayCostMetric: 
+  IGMPLevel: 
+  Index: 13
+  IPAddress: ** VarType is Array **
+  IPConnectionMetric: 30
+  IPEnabled: True
+  IPFilterSecurityEnabled: False
+  IPPortSecurityEnabled: 
+  IPSecPermitIPProtocols: ** VarType is Array **
+  IPSecPermitTCPPorts: ** VarType is Array **
+  IPSecPermitUDPPorts: ** VarType is Array **
+  IPSubnet: ** VarType is Array **
+  IPUseZeroBroadcast: 
+  IPXAddress: 
+  IPXEnabled: False
+  IPXFrameType: 
+  IPXMediaType: 
+  IPXNetworkNumber: 
+  IPXVirtualNetNumber: 
+  KeepAliveInterval: 
+  KeepAliveTime: 
+  MACAddress: 02:00:4C:4F:4F:50
+  MTU: 
+  NumForwardPackets: 
+  PMTUBHDetectEnabled: 
+  PMTUDiscoveryEnabled: 
+  ServiceName: msloop
+  SettingID: {29233F79-4B7B-4C3B-91E0-282A7B270F3C}
+  TcpipNetbiosOptions: 0
+  TcpMaxConnectRetransmissions: 
+  TcpMaxDataRetransmissions: 
+  TcpNumConnections: 
+  TcpUseRFC1122UrgentPointer: 
+  TcpWindowSize: 
+  WINSEnableLMHostsLookup: True
+  WINSHostLookupFile: 
+  WINSPrimaryServer: 
+  WINSScopeID: 
+  WINSSecondaryServer: 
+ ---------------------------------
+  ArpAlwaysSourceRoute: 
+  ArpUseEtherSNAP: 
+  Caption: [00000014] IBM Token-Ring PCI Adapter (Generic)
+  DatabasePath: 
+  DeadGWDetectEnabled: 
+  DefaultIPGateway: 
+  DefaultTOS: 
+  DefaultTTL: 
+  Description: IBM Token-Ring PCI Adapter (Generic)
+  DHCPEnabled: True
+  DHCPLeaseExpires: 
+  DHCPLeaseObtained: 
+  DHCPServer: 
+  DNSDomain: 
+  DNSDomainSuffixSearchOrder: 
+  DNSEnabledForWINSResolution: 
+  DNSHostName: 
+  DNSServerSearchOrder: 
+  DomainDNSRegistrationEnabled: 
+  ForwardBufferMemory: 
+  FullDNSRegistrationEnabled: 
+  GatewayCostMetric: 
+  IGMPLevel: 
+  Index: 14
+  IPAddress: 
+  IPConnectionMetric: 
+  IPEnabled: False
+  IPFilterSecurityEnabled: 
+  IPPortSecurityEnabled: 
+  IPSecPermitIPProtocols: 
+  IPSecPermitTCPPorts: 
+  IPSecPermitUDPPorts: 
+  IPSubnet: 
+  IPUseZeroBroadcast: 
+  IPXAddress: 
+  IPXEnabled: False
+  IPXFrameType: 
+  IPXMediaType: 
+  IPXNetworkNumber: 
+  IPXVirtualNetNumber: 
+  KeepAliveInterval: 
+  KeepAliveTime: 
+  MACAddress: 
+  MTU: 
+  NumForwardPackets: 
+  PMTUBHDetectEnabled: 
+  PMTUDiscoveryEnabled: 
+  ServiceName: IBMTRP
+  SettingID: {2247631C-3F02-4CA0-9E63-D63AA6173719}
+  TcpipNetbiosOptions: 
+  TcpMaxConnectRetransmissions: 
+  TcpMaxDataRetransmissions: 
+  TcpNumConnections: 
+  TcpUseRFC1122UrgentPointer: 
+  TcpWindowSize: 
+  WINSEnableLMHostsLookup: 
+  WINSHostLookupFile: 
+  WINSPrimaryServer: 
+  WINSScopeID: 
+  WINSSecondaryServer: 
+ ---------------------------------
+  ArpAlwaysSourceRoute: 
+  ArpUseEtherSNAP: 
+  Caption: [00000015] Intel(R) PRO/100+ PCI Adapter
+  DatabasePath: 
+  DeadGWDetectEnabled: 
+  DefaultIPGateway: 
+  DefaultTOS: 
+  DefaultTTL: 
+  Description: Intel(R) PRO/100+ PCI Adapter
+  DHCPEnabled: False
+  DHCPLeaseExpires: 
+  DHCPLeaseObtained: 
+  DHCPServer: 
+  DNSDomain: 
+  DNSDomainSuffixSearchOrder: 
+  DNSEnabledForWINSResolution: 
+  DNSHostName: 
+  DNSServerSearchOrder: 
+  DomainDNSRegistrationEnabled: 
+  ForwardBufferMemory: 
+  FullDNSRegistrationEnabled: 
+  GatewayCostMetric: 
+  IGMPLevel: 
+  Index: 15
+  IPAddress: 
+  IPConnectionMetric: 
+  IPEnabled: False
+  IPFilterSecurityEnabled: 
+  IPPortSecurityEnabled: 
+  IPSecPermitIPProtocols: 
+  IPSecPermitTCPPorts: 
+  IPSecPermitUDPPorts: 
+  IPSubnet: 
+  IPUseZeroBroadcast: 
+  IPXAddress: 
+  IPXEnabled: False
+  IPXFrameType: 
+  IPXMediaType: 
+  IPXNetworkNumber: 
+  IPXVirtualNetNumber: 
+  KeepAliveInterval: 
+  KeepAliveTime: 
+  MACAddress: 
+  MTU: 
+  NumForwardPackets: 
+  PMTUBHDetectEnabled: 
+  PMTUDiscoveryEnabled: 
+  ServiceName: E100B
+  SettingID: {117960C2-B976-4D31-9015-BFE2A971E256}
+  TcpipNetbiosOptions: 
+  TcpMaxConnectRetransmissions: 
+  TcpMaxDataRetransmissions: 
+  TcpNumConnections: 
+  TcpUseRFC1122UrgentPointer: 
+  TcpWindowSize: 
+  WINSEnableLMHostsLookup: 
+  WINSHostLookupFile: 
+  WINSPrimaryServer: 
+  WINSScopeID: 
+  WINSSecondaryServer: 
+ ---------------------------------
+  ArpAlwaysSourceRoute: 
+  ArpUseEtherSNAP: 
+  Caption: [00000016] 3Com 3C920 Integrated Fast Ethernet Controller (3C905C-TX Compatible)
+  DatabasePath: 
+  DeadGWDetectEnabled: 
+  DefaultIPGateway: 
+  DefaultTOS: 
+  DefaultTTL: 
+  Description: 3Com 3C920 Integrated Fast Ethernet Controller (3C905C-TX Compatible)
+  DHCPEnabled: False
+  DHCPLeaseExpires: 
+  DHCPLeaseObtained: 
+  DHCPServer: 
+  DNSDomain: 
+  DNSDomainSuffixSearchOrder: 
+  DNSEnabledForWINSResolution: 
+  DNSHostName: 
+  DNSServerSearchOrder: 
+  DomainDNSRegistrationEnabled: 
+  ForwardBufferMemory: 
+  FullDNSRegistrationEnabled: 
+  GatewayCostMetric: 
+  IGMPLevel: 
+  Index: 16
+  IPAddress: 
+  IPConnectionMetric: 
+  IPEnabled: False
+  IPFilterSecurityEnabled: 
+  IPPortSecurityEnabled: 
+  IPSecPermitIPProtocols: 
+  IPSecPermitTCPPorts: 
+  IPSecPermitUDPPorts: 
+  IPSubnet: 
+  IPUseZeroBroadcast: 
+  IPXAddress: 
+  IPXEnabled: False
+  IPXFrameType: 
+  IPXMediaType: 
+  IPXNetworkNumber: 
+  IPXVirtualNetNumber: 
+  KeepAliveInterval: 
+  KeepAliveTime: 
+  MACAddress: 
+  MTU: 
+  NumForwardPackets: 
+  PMTUBHDetectEnabled: 
+  PMTUDiscoveryEnabled: 
+  ServiceName: EL90XBC
+  SettingID: {D498741C-5A4D-41AF-843F-4F1AE14553E8}
+  TcpipNetbiosOptions: 
+  TcpMaxConnectRetransmissions: 
+  TcpMaxDataRetransmissions: 
+  TcpNumConnections: 
+  TcpUseRFC1122UrgentPointer: 
+  TcpWindowSize: 
+  WINSEnableLMHostsLookup: 
+  WINSHostLookupFile: 
+  WINSPrimaryServer: 
+  WINSScopeID: 
+  WINSSecondaryServer: 
+ ---------------------------------
+  ArpAlwaysSourceRoute: 
+  ArpUseEtherSNAP: 
+  Caption: [00000017] Packet Scheduler Miniport
+  DatabasePath: 
+  DeadGWDetectEnabled: 
+  DefaultIPGateway: 
+  DefaultTOS: 
+  DefaultTTL: 
+  Description: Packet Scheduler Miniport
+  DHCPEnabled: False
+  DHCPLeaseExpires: 
+  DHCPLeaseObtained: 
+  DHCPServer: 
+  DNSDomain: 
+  DNSDomainSuffixSearchOrder: 
+  DNSEnabledForWINSResolution: 
+  DNSHostName: 
+  DNSServerSearchOrder: 
+  DomainDNSRegistrationEnabled: 
+  ForwardBufferMemory: 
+  FullDNSRegistrationEnabled: 
+  GatewayCostMetric: 
+  IGMPLevel: 
+  Index: 17
+  IPAddress: 
+  IPConnectionMetric: 
+  IPEnabled: False
+  IPFilterSecurityEnabled: 
+  IPPortSecurityEnabled: 
+  IPSecPermitIPProtocols: 
+  IPSecPermitTCPPorts: 
+  IPSecPermitUDPPorts: 
+  IPSubnet: 
+  IPUseZeroBroadcast: 
+  IPXAddress: 
+  IPXEnabled: False
+  IPXFrameType: 
+  IPXMediaType: 
+  IPXNetworkNumber: 
+  IPXVirtualNetNumber: 
+  KeepAliveInterval: 
+  KeepAliveTime: 
+  MACAddress: 
+  MTU: 
+  NumForwardPackets: 
+  PMTUBHDetectEnabled: 
+  PMTUDiscoveryEnabled: 
+  ServiceName: 
+  SettingID: {2D6435BF-6969-43C1-BA91-EA87C9921191}
+  TcpipNetbiosOptions: 
+  TcpMaxConnectRetransmissions: 
+  TcpMaxDataRetransmissions: 
+  TcpNumConnections: 
+  TcpUseRFC1122UrgentPointer: 
+  TcpWindowSize: 
+  WINSEnableLMHostsLookup: 
+  WINSHostLookupFile: 
+  WINSPrimaryServer: 
+  WINSScopeID: 
+  WINSSecondaryServer: 
+ ---------------------------------
+  ArpAlwaysSourceRoute: 
+  ArpUseEtherSNAP: 
+  Caption: [00000018] IBM Token-Ring PCI Adapter (Generic)
+  DatabasePath: 
+  DeadGWDetectEnabled: 
+  DefaultIPGateway: 
+  DefaultTOS: 
+  DefaultTTL: 
+  Description: IBM Token-Ring PCI Adapter (Generic)
+  DHCPEnabled: True
+  DHCPLeaseExpires: 
+  DHCPLeaseObtained: 
+  DHCPServer: 
+  DNSDomain: 
+  DNSDomainSuffixSearchOrder: 
+  DNSEnabledForWINSResolution: 
+  DNSHostName: 
+  DNSServerSearchOrder: 
+  DomainDNSRegistrationEnabled: 
+  ForwardBufferMemory: 
+  FullDNSRegistrationEnabled: 
+  GatewayCostMetric: 
+  IGMPLevel: 
+  Index: 18
+  IPAddress: 
+  IPConnectionMetric: 
+  IPEnabled: False
+  IPFilterSecurityEnabled: 
+  IPPortSecurityEnabled: 
+  IPSecPermitIPProtocols: 
+  IPSecPermitTCPPorts: 
+  IPSecPermitUDPPorts: 
+  IPSubnet: 
+  IPUseZeroBroadcast: 
+  IPXAddress: 
+  IPXEnabled: False
+  IPXFrameType: 
+  IPXMediaType: 
+  IPXNetworkNumber: 
+  IPXVirtualNetNumber: 
+  KeepAliveInterval: 
+  KeepAliveTime: 
+  MACAddress: 
+  MTU: 
+  NumForwardPackets: 
+  PMTUBHDetectEnabled: 
+  PMTUDiscoveryEnabled: 
+  ServiceName: IBMTRP
+  SettingID: {61EFD95C-864B-40E2-BD14-85C0265B2D9D}
+  TcpipNetbiosOptions: 
+  TcpMaxConnectRetransmissions: 
+  TcpMaxDataRetransmissions: 
+  TcpNumConnections: 
+  TcpUseRFC1122UrgentPointer: 
+  TcpWindowSize: 
+  WINSEnableLMHostsLookup: 
+  WINSHostLookupFile: 
+  WINSPrimaryServer: 
+  WINSScopeID: 
+  WINSSecondaryServer: 
+ ---------------------------------
+  ArpAlwaysSourceRoute: 
+  ArpUseEtherSNAP: 
+  Caption: [00000019] Packet Scheduler Miniport
+  DatabasePath: 
+  DeadGWDetectEnabled: 
+  DefaultIPGateway: 
+  DefaultTOS: 
+  DefaultTTL: 
+  Description: Packet Scheduler Miniport
+  DHCPEnabled: False
+  DHCPLeaseExpires: 
+  DHCPLeaseObtained: 
+  DHCPServer: 
+  DNSDomain: 
+  DNSDomainSuffixSearchOrder: 
+  DNSEnabledForWINSResolution: 
+  DNSHostName: 
+  DNSServerSearchOrder: 
+  DomainDNSRegistrationEnabled: 
+  ForwardBufferMemory: 
+  FullDNSRegistrationEnabled: 
+  GatewayCostMetric: 
+  IGMPLevel: 
+  Index: 19
+  IPAddress: 
+  IPConnectionMetric: 
+  IPEnabled: False
+  IPFilterSecurityEnabled: 
+  IPPortSecurityEnabled: 
+  IPSecPermitIPProtocols: 
+  IPSecPermitTCPPorts: 
+  IPSecPermitUDPPorts: 
+  IPSubnet: 
+  IPUseZeroBroadcast: 
+  IPXAddress: 
+  IPXEnabled: False
+  IPXFrameType: 
+  IPXMediaType: 
+  IPXNetworkNumber: 
+  IPXVirtualNetNumber: 
+  KeepAliveInterval: 
+  KeepAliveTime: 
+  MACAddress: 
+  MTU: 
+  NumForwardPackets: 
+  PMTUBHDetectEnabled: 
+  PMTUDiscoveryEnabled: 
+  ServiceName: 
+  SettingID: {5DAF88C4-D9D2-4613-AF4B-4C24002DD784}
+  TcpipNetbiosOptions: 
+  TcpMaxConnectRetransmissions: 
+  TcpMaxDataRetransmissions: 
+  TcpNumConnections: 
+  TcpUseRFC1122UrgentPointer: 
+  TcpWindowSize: 
+  WINSEnableLMHostsLookup: 
+  WINSHostLookupFile: 
+  WINSPrimaryServer: 
+  WINSScopeID: 
+  WINSSecondaryServer: 
+ ---------------------------------
+  ArpAlwaysSourceRoute: 
+  ArpUseEtherSNAP: 
+  Caption: [00000020] VMware Virtual Ethernet Adapter (Network Address Translation (NAT) for VMnet8)
+  DatabasePath: %SystemRoot%\System32\drivers\etc
+  DeadGWDetectEnabled: 
+  DefaultIPGateway: 
+  DefaultTOS: 
+  DefaultTTL: 
+  Description: VMware Virtual Ethernet Adapter (Network Address Translation (NAT) for VMnet8)
+  DHCPEnabled: True
+  DHCPLeaseExpires: 20020110223949.000000+000
+  DHCPLeaseObtained: 20020110220949.000000+000
+  DHCPServer: 192.168.182.254
+  DNSDomain: 
+  DNSDomainSuffixSearchOrder: 
+  DNSEnabledForWINSResolution: False
+  DNSHostName: 95l085673
+  DNSServerSearchOrder: 
+  DomainDNSRegistrationEnabled: 
+  ForwardBufferMemory: 
+  FullDNSRegistrationEnabled: 
+  GatewayCostMetric: 
+  IGMPLevel: 
+  Index: 20
+  IPAddress: ** VarType is Array **
+  IPConnectionMetric: 30
+  IPEnabled: True
+  IPFilterSecurityEnabled: False
+  IPPortSecurityEnabled: 
+  IPSecPermitIPProtocols: ** VarType is Array **
+  IPSecPermitTCPPorts: ** VarType is Array **
+  IPSecPermitUDPPorts: ** VarType is Array **
+  IPSubnet: ** VarType is Array **
+  IPUseZeroBroadcast: 
+  IPXAddress: 
+  IPXEnabled: False
+  IPXFrameType: 
+  IPXMediaType: 
+  IPXNetworkNumber: 
+  IPXVirtualNetNumber: 
+  KeepAliveInterval: 
+  KeepAliveTime: 
+  MACAddress: 00:50:56:C0:00:08
+  MTU: 
+  NumForwardPackets: 
+  PMTUBHDetectEnabled: 
+  PMTUDiscoveryEnabled: 
+  ServiceName: VMnetx
+  SettingID: {AEDB090C-EC22-4894-AF54-F8A2C00580ED}
+  TcpipNetbiosOptions: 0
+  TcpMaxConnectRetransmissions: 
+  TcpMaxDataRetransmissions: 
+  TcpNumConnections: 
+  TcpUseRFC1122UrgentPointer: 
+  TcpWindowSize: 
+  WINSEnableLMHostsLookup: True
+  WINSHostLookupFile: 
+  WINSPrimaryServer: 
+  WINSScopeID: 
+  WINSSecondaryServer: 
+ ---------------------------------

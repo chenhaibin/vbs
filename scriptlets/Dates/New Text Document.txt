@@ -1,0 +1,137 @@
+@echo off
+goto startup
+
+Simon Atwell's history logger vbscript:
+'/**************************************************************************
+**/
+'/*
+*/
+'/* VBScript
+*/
+'/*  HIST_LOG.VBS    - History Logger
+*/
+'/*
+*/
+'/* SYNOPSIS
+*/
+'/*  Records platform patch updates to history file, created in the folder
+*/
+'/*  E:\Halifax (created if not existent)
+*/
+'/*  Returns ERRORLEVEL 0 success, 1 failure
+*/
+'/*
+*/
+'/*  PROJECT:  E-COMMERCE PLATFORM (P0429)
+*/
+'/*  PLATFORM: E-Commerce
+*/
+'/*
+*/
+'/* AUTHOR
+*/
+'/*  */
+'/*
+*/
+'/* DATE
+*/
+'/*  21st September 1999             - (1.0) Creation
+*/
+'/*
+*/
+'/**************************************************************************
+**/
+'<%
+OPTION EXPLICIT
+
+' Declare vars and constants
+CONST L_ERROR = "1"
+CONST L_SUCCESS = "0"
+CONST C_HISTORY_FOLDER = "E:\halifax"
+CONST C_HISTORY_FILE = "history.txt"
+
+Dim oFso, oFile, sMsg
+
+' Check argument
+if WScript.Arguments.Count <> 1 then
+	WScript.quit(L_ERROR)
+end if
+
+' Format the line
+sMsg = left(date(),6) & year(date) & " " & FormatDateTime(now, vbShortTime)
+& " " & WScript.Arguments.Item(0)
+
+' Create a file system object
+Set oFso = CreateObject("Scripting.FileSystemObject")
+
+' Check that folder exists
+Err.Clear
+if oFso.FolderExists(C_HISTORY_FOLDER) = FALSE then
+	oFso.CreateFolder(C_HISTORY_FOLDER)
+end if
+if Err.number <> 0 then
+	WScript.echo "Failed to create " & C_HISTORY_FOLDER & " Error (" &
+Err.number & ") " & Err.description 
+	set oFso = nothing
+	WScript.quit(L_ERROR)
+end if
+	
+' Open the file for append, will create if first time
+Err.Clear
+Set oFile = oFso.OpenTextFile(C_HISTORY_FOLDER & "\" &
+C_HISTORY_FILE,8,TRUE)
+if Err.number <> 0 then
+	WScript.echo "Failed to open " & C_HISTORY_FILE & " Error (" &
+Err.number & ") " & Err.description 
+	set oFile = nothing
+	set oFso = nothing
+	WScript.quit(L_ERROR)
+end if
+
+oFile.Write sMsg & vbCrLf
+oFile.Close
+set oFile = nothing
+set oFso = nothing
+WScript.quit(L_SUCCESS)
+
+USE THE LINE cscript //nologo e:\halifax\scripts\hist_log.vbs "Text to
+appear in History log" FOR DESCRIPTION
+
+
+
+:startup
+if not "%OS%"=="Windows_NT" goto wrongos
+if {%1}=={} goto usage
+
+for /f "tokens=1,2,3,4* delims=/ " %%i in ('date /t') do set DAY=%%i&set
+MM=%%j&set DD=%%k&set YY=%%l
+for /f "tokens=1,2* delims=: " %%i in ('time /t') do set HR=%%i&set MIN=%%j
+
+
+rem echo copy %1 %yy%%mm%%dd%%hr%%min%.txt 
+rem mkdir %yy%%mm%%dd%%hr%%min% 
+copy %1 %yy%%mm%%dd%%hr%%min%.txt 
+goto :eof
+
+:wrongos
+echo sorry only works on NT
+echo  (c) Newmode Technology Limited
+echo www.newmode-technology.com  for all your custom scripting and
+programming needs on 98 and UNIX
+goto :eof
+
+:usage
+echo usage "bob filename"
+echo This script copies any given filename to a timestamped file with
+extension .txt 
+echo
+
+
+
+ 11/29/99 17:07:45
+------------------------------------------------------------------------------
+Part of the Halifax Group, Halifax Group plc, Registered in England No. 2367076.  Registered Office: Trinity Road, Halifax, West Yorkshire HX1 2RG. Represents only the Halifax Financial Services Marketing Group for the purposes of advising on and selling life assurance, pensions and unit trust business.  The Marketing Group is regulated by the Personal Investment Authority.  Switchboard 01422 333333.
+
+
+==============================================================================
+

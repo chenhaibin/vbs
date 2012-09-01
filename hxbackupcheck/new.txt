@@ -1,0 +1,52 @@
+Microsoft (R) Windows Script Host Version 5.1 for Windows
+Copyright (C) Microsoft Corporation 1996-1999. All rights reserved.
+
+DD: 02
+MM: 10
+YYYY: 2000
+YY: 00
+hh: 19
+Current time is: 19:59:13
+Checking for files up to: 19:00
+Transactions_1\ECOM0101\MLOG_1900_02102000
+Transactions_1\ECOM0101\P1_1900_02102000
+Transactions_1\ECOM0101\P2_1900_02102000
+Transactions_1\ECOM0101\P3_1900_02102000
+Transactions_1\ECOM0101\P4_1900_02102000
+Transactions_1\<aud servers>\Aud_1900_02102000
+
+Transactions_1\ECOM5101\MLOG_1900_02102000
+Transactions_1\ECOM5101\P1_1900_02102000
+Transactions_1\ECOM5101\P2_1900_02102000
+Transactions_1\ECOM5101\P3_1900_02102000
+Transactions_1\ECOM5101\P4_1900_02102000
+Transactions_1\<aud servers>\Aud_1900_02102000
+
+Transactions_1\<mem servers>\MLOG_1900_02102000
+Transactions_1\<mem servers>\P1_1900_02102000
+Transactions_1\<mem servers>\P2_1900_02102000
+Transactions_1\<mem servers>\P3_1900_02102000
+Transactions_1\<mem servers>\P4_1900_02102000
+Transactions_1\ECOM0103\Aud_1900_02102000
+
+Transactions_1\<mem servers>\MLOG_1900_02102000
+Transactions_1\<mem servers>\P1_1900_02102000
+Transactions_1\<mem servers>\P2_1900_02102000
+Transactions_1\<mem servers>\P3_1900_02102000
+Transactions_1\<mem servers>\P4_1900_02102000
+Transactions_1\ecom5103\Aud_1900_02102000
+
+Transactions_1\<mem servers>\MLOG_1900_02102000
+Transactions_1\<mem servers>\P1_1900_02102000
+Transactions_1\<mem servers>\P2_1900_02102000
+Transactions_1\<mem servers>\P3_1900_02102000
+Transactions_1\<mem servers>\P4_1900_02102000
+Transactions_1\<aud servers>\Aud_1900_02102000
+
+Transactions_1\<mem servers>\MLOG_1900_02102000
+Transactions_1\<mem servers>\P1_1900_02102000
+Transactions_1\<mem servers>\P2_1900_02102000
+Transactions_1\<mem servers>\P3_1900_02102000
+Transactions_1\<mem servers>\P4_1900_02102000
+Transactions_1\<aud servers>\Aud_1900_02102000
+

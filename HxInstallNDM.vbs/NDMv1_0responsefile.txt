@@ -1,0 +1,391 @@
+# ******************************************************************
+#
+# Name		: NDMResponseFile.txt - Response file
+#				for auto install of Websphere NDM
+# 
+# Author(s)	: Paul Clarkson, Adrian Farnell
+# Version	: 1.0 		- Creation (26/08/2003)
+# Notes		: N/a
+#
+# ******************************************************************
+
+
+# ********************************************
+# 
+# Response file for WebSphere Application Server
+# 5.0 Network Deployment Install
+
+# Please follow the comments to use the response file 
+# and understand the various options.  You must carefully 
+# complete or change the various values. If the values are not completed
+# properly, the install may be unsuccessful.
+#
+# IMPORTANT: ALL VALUES MUST BE ENCLOSED IN DOUBLE QUOTES ( "" ).
+#
+# ********************************************
+
+
+# *******************************************
+# Below is the beginning of the response file that needs to be 
+# filled in by the user.
+# *******************************************
+
+# *******************************************
+# The below value specifies silent install. This value
+# indicates that the install will be silent. If you wish not to install
+# silently, just delete this value.
+# *******************************************
+
+-silent
+
+
+# *******************************************
+# WebSphere Application Server Network Deployment Install Location
+#
+# Please specify the destination directory for the WebSphere 
+# Application Server Network Deployment installation.   You will need to change 
+# this for UNIX platforms. As an example for AIX, the value
+# may be "/usr/WebSphere/DeploymentManager"
+# *******************************************
+
+-P wasBean.installLocation="E:\WebSphere\DeploymentManager"
+
+
+# *******************************************
+# Below are the features that you may choose to install.
+# Set the following values to "true" or "false," depending upon whether 
+# you want to install the following features or not.
+# *******************************************
+
+# *******************************************
+# Install Deployment Manager
+# *******************************************
+
+-P serverBean.active="true"
+
+
+# *******************************************
+#
+# Begin Features for Web Services
+#
+# *******************************************
+
+# *********
+# Install Web Services
+#
+# This feature is for installation of Web Services.  If you 
+# want to install the next two features, you must set this to "true"
+# else set this to "false."
+# *********
+
+-P webServicesBean.active="false"
+
+# *********
+# Install UDDI Registry
+# *********
+
+-P uddiBean.active="false"
+
+# *********
+# Install the Web Services Gateway
+# *********
+
+-P webServicesGatewayBean.active="false"
+
+# *******************************************
+#
+# End Features for Web Services
+#
+# *******************************************
+
+
+# *******************************************
+# Install Embedded Messaging Client
+# *******************************************
+
+-P mqFeatureBean.active="false"
+
+# *******************************************
+# Embedded Messaging Client Install Location
+#
+# If you choose to install Embedded Messaging Client above,
+# please specify an install location below for Windows platforms only.
+# The directory may not be configured by the user for UNIX platforms
+# as it is predetermined.
+# *******************************************
+
+# -P mqFeatureBean.installLocation="C:\Program Files\IBM\WebSphere MQ"
+
+
+# ***********************************************************
+# **         Support for Silent Coexistence
+# **
+# ** NOTE: You must uncomment and modify the properties in
+# ** this section for silent coexistence to work properly.
+# **
+# ***********************************************************
+
+# ***********************************************************
+# Tell the installer that you want to perform coexistence
+# ***********************************************************
+
+#-W coexistenceOptionsBean.doCoexistence="true"
+
+# ***********************************************************
+# Set this property if you want to modify the default IHS
+# and IHS Admin ports.  This MUST be false for ND.
+# ***********************************************************
+
+#-W coexistencePanelBean.useIhs="false"
+
+# ***********************************************************
+# The new value for the Bootstrap Port
+# ***********************************************************
+
+#-W coexistencePanelBean.bootstrapPort="9917"
+
+# ***********************************************************
+# The new values for the HTTP and HTTPs transports.
+# ***********************************************************
+
+#-W coexistencePanelBean.httpTransportPort="9085"
+#-W coexistencePanelBean.httpsTransportPort="9444"
+
+# ***********************************************************
+# Thew new values for the admin console an secure admin
+# console ports.
+# ***********************************************************
+
+#-W coexistencePanelBean.adminConsolePort="9091"
+#-W coexistencePanelBean.secureAdminConsolePort="9044"
+
+# ***********************************************************
+# The new values for the csivServerAuthListener and
+# the csivMultiAuthListener ports.
+# NOTE: You can usually leave these set to 0
+# ***********************************************************
+
+#-W coexistencePanelBean.csivServerAuthListenerAddr="9502"
+#-W coexistencePanelBean.csivMultiAuthListenerAddr="9503"
+
+# ***********************************************************
+# The new value for the sasSSLServerAuth port.
+# ***********************************************************
+
+#-W coexistencePanelBean.sasSSLServerAuthAddr="9819"
+
+# ***********************************************************
+# The new values for the JMS Server Direct Address,
+# JMS Server Security, and JMS Server QueuedAddress ports
+# ***********************************************************
+
+#-W coexistencePanelBean.jmsServerDirectAddress="5569"
+#-W coexistencePanelBean.jmsServerSecurityPort="5567"
+#-W coexistencePanelBean.jmsServerQueuedAddress="5568"
+
+# ***********************************************************
+# The new value for the soap connector address port
+# ***********************************************************
+
+#-W coexistencePanelBean.soapConnectorAddress="8889"
+
+# ***********************************************************
+# The new value for the DRS Client Address port
+# ***********************************************************
+
+#-W coexistencePanelBean.drsClientAddress="7999"
+
+# ***********************************************************
+# The new value for the Orb Listener Address
+# ***********************************************************
+#-W coexistencePanelBean.orbListenerPort="9703"
+
+# ***********************************************************
+# The new value for the cell discovery address
+# ***********************************************************
+#-W coexistencePanelBean.cellDiscoveryPort="7278"
+
+
+# ***********************************************************
+# **         Support for Silent Migration
+# **
+# ** NOTE: You must uncomment and modify EVERY property
+# ** in this section for silent migration to work properly.
+# **
+# ***********************************************************
+
+# ***********************************************************
+# The installer must be informed that you wish to operate on 
+# a previous version, so you must tell it that one is present 
+# by uncommenting the next line.
+# ***********************************************************
+
+# -W previousVersionDetectedBean.previousVersionDetected="true"
+
+# ***********************************************************
+# Direct the installer to operate on a specific previous version by
+# uncommenting the next line and entering one of these values:
+# 
+#  Value              Edition
+#  *****              *******
+#  AE                 WAS Advanced Edition (V3.x, V4.0.x)
+#  advanced           AE
+#  AEs                WAS Advanced Single Server Edition (V4.0.x)
+#  standard           WAS Standard Edition (V3.x)
+# ************************************************************           
+
+# -W previousVersionPanelBean.selectedVersionEdition="AEs"
+
+# ************************************************************
+# Specify the location where the previous version is installed.
+# ************************************************************
+
+# -W previousVersionPanelBean.selectedVersionInstallLocation="/opt/WebSphere/AppServer"
+
+# ************************************************************
+# Specify the path to the configuration file for the
+# previous version.  Configuration filenames are:
+#
+# Value            previousVersionPanelBean.selectedVersionEdition 
+# *****            ***********************************************
+# admin.config     AE
+# admin.config     advanced
+# server-cfg       AEs
+# server-cfg       standard
+# ************************************************************
+
+# -W previousVersionPanelBean.selectedVersionConfigFile="/opt/WebSphere/AppServer/config/server-cfg.xml"
+
+# ************************************************************
+# Specify the version number of the previous version: 4.0 4.0.1 3.5 etc...
+# ************************************************************
+
+# -W previousVersionPanelBean.previousVersionSelected="4.0"
+
+# ************************************************************
+# Uncomment the below line to indicate that you wish to 
+# migrate the previous version.
+# ************************************************************
+
+# -W previousVersionPanelBean.migrationSelected="true"
+
+# ************************************************************
+# Specify the directory where migration will backup 
+# information about the previous version.
+# ************************************************************
+
+# -W migrationInformationPanelBean.migrationBackupDir="/tmp/migrationbackup"
+
+# ************************************************************
+# Specify the directory where migration logs will be stored.
+# ************************************************************
+
+# -W migrationInformationPanelBean.migrationLogfileDir="/tmp/migrationlogs"
+
+# *******************************************
+# Enter a node name, host name, and cell name for this 
+# installation.  The node name is used for administration, 
+# and must be unique within its group of nodes (cell).  
+# The host name is the DNS name or IP address for this computer.  
+# The cell name is a logical name for a group of nodes.
+# 
+# You must replace the "nodenameManager" with the node name that 
+# you want the default node name to be (must be unique).  
+# Please change the nodename to your machine name in the 
+# "nodenameManager" default.
+# *******************************************
+
+-W nodeNameBean.nodeName="VBnodenameManagerVB"
+
+# *********
+# You may replace the "nodenameNetwork" with the cell name 
+# that you want the create cell name to be.  Please change the 
+# nodename to your machine name in the "nodenameNetwork" default.
+# *********
+
+-W nodeNameBean.cellName="VBnodenameNetworkVB"
+
+# *********
+# You must replace "hostNameOrIPAddress" with either the hostname 
+# or IP address for the cell manager.
+# *********
+
+-W nodeNameBean.hostName="VBhostNameOrIPAddressVB"
+
+
+# *******************************************
+# Begin Installing Services 
+#
+# The following options are to install Services for Websphere 
+# Network Deployment on Windows.  Using Services, you can start and 
+# stop services, and configure startup and recovery actions. 
+# You can ignore these or comment them out for other Operating Systems.
+# *******************************************
+
+-W serviceSettingsWizardBean.active="true"
+
+# *********
+# Install the WebSphere Network Deployment service
+# *********
+
+-W serviceSettingsWizardBean.wasChoice="true"
+
+# *********
+# If you chose to install a service above, then you must
+# specify the User Name and Password which are required to 
+# install the Services. The current user must be admin or must 
+# have admin authority to install a Service. Also the username 
+# which is given here must have "Log On as a Service " authority 
+# for the service to run properly.
+# *********
+
+# *********
+# Replace YOUR_USER_NAME with your username.
+# *********
+
+-W serviceSettingsWizardBean.userName="HxWebsSVC"
+
+# *********
+# Replace YOUR_PASSWORD with your valid password.
+# *********
+
+-W serviceSettingsWizardBean.password="hw8Fmz)£nmQLs_"
+
+
+# *******************************************
+# 
+# End Installing Services 
+#
+# *******************************************
+
+
+# *******************************************
+# Change the path to the prerequisite checker configuration 
+# file only if a new file has been provided.  This can be a 
+# relative path or an absolute path.  Make sure both the
+# prereqChecker.xml and prereqChecker.dtd files are present at the provided path.
+# *******************************************
+
+-W osLevelCheckActionBean.configFilePath="waspc/prereqChecker.xml"
+
+
+# *******************************************
+# Product Registration Tool
+#
+# To launch the Product Registration Tool, please 
+# change the value to "true." This is only for
+# GUI install.
+# *******************************************
+
+-W launchPRTBean.active="false"
+
+
+# *******************************************
+# First Steps
+# 
+# If you would the First Steps to display at the end
+# of the installation, please change the value to "true."
+# *******************************************
+
+-W firstStepsSequenceBean.active="false"
+

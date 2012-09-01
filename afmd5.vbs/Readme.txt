@@ -1,0 +1,1 @@
+This file is pretty much defunct, use rehash.exe

@@ -1,0 +1,25 @@
+for j= 1 to 350
+
+	wscript.echo funcCreateString 
+
+next
+
+function funcCreateString	
+
+	strString = ""
+	strUpper = 125
+	strLower = 33
+	
+	for i = 1 to 14
+		
+		Randomize
+		
+		strString = strString & Chr (Int (strUpper-StrLower + 1) * Rnd() + strLower)
+		
+		'wscript.echo strString
+		
+	next
+	
+	funcCreateString = strString
+	
+end function

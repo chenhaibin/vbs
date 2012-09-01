@@ -1,0 +1,16 @@
+
+On error resume next
+
+' Connect to the SSL root key
+
+Set objRoot = GetObject("IIS://LocalHost/W3SVC/SSLKeys")
+If err.number <> 0 then
+	wscript.echo "Couldn't bind to SSL Root Key"
+	wscript.Quit
+End If
+
+For each key in objRoot
+	
+	wscript.echo key.name
+
+Next

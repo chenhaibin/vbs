@@ -1,0 +1,15 @@
+# ips.dat: File to tell hxIpAddress.vbs how to configure NICs.
+# 
+#
+# Notes: Use '#' for comment sections
+#        [NIC Name:NIC Initial IP] to denote NIC type
+# 	 
+
+[LoopBack:169.254.1.1]
+Replace1stIP=no
+BeginIPRange=169.254.1.2
+EndIPRange=169.254.1.25
+SubnetForRange=255.255.254.0
+GatewayForRange=
+
+

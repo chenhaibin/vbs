@@ -1,0 +1,39 @@
+
+set ofso = createobject ("scripting.filesystemobject")
+
+set ofile = ofso.opentextfile ("c:\boot.ini")
+
+set ofiletoreplacebooe = ofso.createtextfile ("c:\boot.new")
+
+
+Do while ofile.atendofstream <> true
+
+	strline = ofile.readline
+
+	
+
+	if instr (strLine, "multi(0)disk(0)rdisk(0)partition(2)\WINNT=" & chr(34) & "Microsoft Windows XP Professional" & chr(34)& " /fastdetect") <> 0  then 
+
+		'wscript.echo strLine
+
+		' check to see if /3GB is in that line
+		If instr (strLine, "/3GB") <> 0 then
+			'do nothing		
+		else 
+			strLine = strLine & " /3GB"
+		end if
+
+
+		'if not add it
+	else
+		
+	end if
+
+	strFinal = strfiNAL & STRlINE & vbcrlf
+
+Loop
+
+wscript.echo strFinal
+
+ofiletoreplacebooe.write strFinal
+ofiletoreplacebooe.close

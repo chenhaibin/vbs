@@ -1,0 +1,104 @@
+19/10/2000 00:04:41 - : writing to backout file (.txt)
+19/10/2000 00:04:43 - : Opened ipmap file successfully
+19/10/2000 00:04:43 - : Before Put operation: wwwbankhome : 200.223.2.208:80:
+19/10/2000 00:04:44 - : After Put operation: wwwbankhome : 100.223.2.208:80:
+19/10/2000 00:04:45 - : Before Put operation: wwwonlinehome : 200.223.2.209:80:
+19/10/2000 00:04:45 - : After Put operation: wwwonlinehome : 100.223.2.209:80:
+19/10/2000 00:04:46 - : Before Put operation: wwwsharehome : 200.223.2.210:80:
+19/10/2000 00:04:47 - : After Put operation: wwwsharehome : 100.223.2.210:80:
+19/10/2000 00:04:48 - : Before Put operation: wwwsharesavehome : 200.223.2.211:80:
+19/10/2000 00:04:49 - : After Put operation: wwwsharesavehome : 100.223.2.211:80:
+19/10/2000 00:04:50 - : Before Put operation: wwwinsurancehome : 200.223.2.212:80:
+19/10/2000 00:04:51 - : After Put operation: wwwinsurancehome : 100.223.2.212:80:
+19/10/2000 00:04:52 - : Before Put operation: wwwmortgageshome : 200.223.2.213:80:
+19/10/2000 00:04:52 - : After Put operation: wwwmortgageshome : 100.223.2.213:80:
+19/10/2000 00:04:54 - : Before Put operation: wwwuserreghome : 200.223.2.214:80:
+19/10/2000 00:04:55 - : After Put operation: wwwuserreghome : 100.223.2.214:80:
+19/10/2000 00:05:26 - : Written Backout file (.old)
+19/10/2000 00:05:27 - : Started restore of old data
+19/10/2000 00:05:28 - : Opened ipmap file successfully
+19/10/2000 00:05:28 - : Before Put operation: Administration Web Site : :6:80:
+19/10/2000 00:05:29 - : After Put operation: Administration Web Site : :6:80:
+19/10/2000 00:05:31 - : Before Put operation: wwwbankhome : 100.223.2.208:80:
+19/10/2000 00:05:32 - : After Put operation: wwwbankhome : 200.223.2.208:80:
+19/10/2000 00:05:33 - : Before Put operation: wwwuserreghome : 100.223.2.214:80:
+19/10/2000 00:05:34 - : After Put operation: wwwuserreghome : 200.223.2.214:80:
+19/10/2000 00:05:34 - : Before Put operation: wwwsharesavehome : 100.223.2.211:80:
+19/10/2000 00:05:35 - : After Put operation: wwwsharesavehome : 200.223.2.211:80:
+19/10/2000 00:05:37 - : Before Put operation: wwwsharehome : 100.223.2.210:80:
+19/10/2000 00:05:38 - : After Put operation: wwwsharehome : 200.223.2.210:80:
+19/10/2000 00:05:39 - : Before Put operation: wwwmortgageshome : 100.223.2.213:80:
+19/10/2000 00:05:40 - : After Put operation: wwwmortgageshome : 200.223.2.213:80:
+19/10/2000 00:05:41 - : Before Put operation: wwwinsurancehome : 100.223.2.212:80:
+19/10/2000 00:05:41 - : After Put operation: wwwinsurancehome : 200.223.2.212:80:
+19/10/2000 00:05:42 - : Before Put operation: wwwonlinehome : 100.223.2.209:80:
+19/10/2000 00:05:44 - : After Put operation: wwwonlinehome : 200.223.2.209:80:
+19/10/2000 00:05:46 - : Backout restored, Original backout file deleted.
+19/10/2000 00:06:31 - : writing to backout file (.txt)
+19/10/2000 00:06:32 - : Opened ipmap file successfully
+19/10/2000 00:06:33 - : Before Put operation: wwwbankhome : 200.223.2.208:80:
+19/10/2000 00:06:34 - : After Put operation: wwwbankhome : 100.223.2.208:80:
+19/10/2000 00:06:35 - : Before Put operation: wwwonlinehome : 200.223.2.209:80:
+19/10/2000 00:06:37 - : After Put operation: wwwonlinehome : 100.223.2.209:80:
+19/10/2000 00:06:38 - : Before Put operation: wwwsharehome : 200.223.2.210:80:
+19/10/2000 00:06:39 - : After Put operation: wwwsharehome : 100.223.2.210:80:
+19/10/2000 00:06:40 - : Before Put operation: wwwsharesavehome : 200.223.2.211:80:
+19/10/2000 00:06:41 - : After Put operation: wwwsharesavehome : 100.223.2.211:80:
+19/10/2000 00:06:41 - : Before Put operation: wwwinsurancehome : 200.223.2.212:80:
+19/10/2000 00:06:43 - : After Put operation: wwwinsurancehome : 100.223.2.212:80:
+19/10/2000 00:06:44 - : Before Put operation: wwwmortgageshome : 200.223.2.213:80:
+19/10/2000 00:06:45 - : After Put operation: wwwmortgageshome : 100.223.2.213:80:
+19/10/2000 00:06:46 - : Before Put operation: wwwuserreghome : 200.223.2.214:80:
+19/10/2000 00:06:47 - : After Put operation: wwwuserreghome : 100.223.2.214:80:
+19/10/2000 00:08:30 - : Written Backout file (.old)
+19/10/2000 00:08:30 - : Opened ipmap file successfully
+19/10/2000 00:08:32 - : Before Put operation: wwwbankhome : 100.223.2.208:80:
+19/10/2000 00:08:33 - : After Put operation: wwwbankhome : 255.255.255.0:80:
+19/10/2000 00:08:34 - : Before Put operation: wwwonlinehome : 100.223.2.209:80:
+19/10/2000 00:08:35 - : After Put operation: wwwonlinehome : 100.223.2.209:80:
+19/10/2000 00:08:35 - : Before Put operation: wwwsharehome : 100.223.2.210:80:
+19/10/2000 00:08:36 - : After Put operation: wwwsharehome : 100.223.2.210:80:
+19/10/2000 00:08:38 - : Before Put operation: wwwsharesavehome : 100.223.2.211:80:
+19/10/2000 00:08:38 - : After Put operation: wwwsharesavehome : 100.223.2.211:80:
+19/10/2000 00:08:39 - : Before Put operation: wwwinsurancehome : 100.223.2.212:80:
+19/10/2000 00:08:40 - : After Put operation: wwwinsurancehome : 100.223.2.212:80:
+19/10/2000 00:08:41 - : Before Put operation: wwwmortgageshome : 100.223.2.213:80:
+19/10/2000 00:08:42 - : After Put operation: wwwmortgageshome : 100.223.2.213:80:
+19/10/2000 00:08:43 - : Before Put operation: wwwuserreghome : 100.223.2.214:80:
+19/10/2000 00:08:44 - : After Put operation: wwwuserreghome : 100.223.2.214:80:
+19/10/2000 00:10:29 - : Written Backout file (.old)
+19/10/2000 00:10:29 - : Started restore of old data
+19/10/2000 00:10:30 - : Opened ipmap file successfully
+19/10/2000 00:10:31 - : Before Put operation: Administration Web Site : :6:80:
+19/10/2000 00:10:32 - : After Put operation: Administration Web Site : :6:80:
+19/10/2000 00:10:33 - : Before Put operation: wwwbankhome : 255.255.255.0:80:
+19/10/2000 00:10:35 - : After Put operation: wwwbankhome : 200.223.2.208:80:
+19/10/2000 00:10:35 - : Before Put operation: wwwuserreghome : 100.223.2.214:80:
+19/10/2000 00:10:36 - : After Put operation: wwwuserreghome : 200.223.2.214:80:
+19/10/2000 00:10:37 - : Before Put operation: wwwsharesavehome : 100.223.2.211:80:
+19/10/2000 00:10:38 - : After Put operation: wwwsharesavehome : 200.223.2.211:80:
+19/10/2000 00:10:39 - : Before Put operation: wwwsharehome : 100.223.2.210:80:
+19/10/2000 00:10:40 - : After Put operation: wwwsharehome : 200.223.2.210:80:
+19/10/2000 00:10:41 - : Before Put operation: wwwmortgageshome : 100.223.2.213:80:
+19/10/2000 00:10:42 - : After Put operation: wwwmortgageshome : 200.223.2.213:80:
+19/10/2000 00:10:43 - : Before Put operation: wwwinsurancehome : 100.223.2.212:80:
+19/10/2000 00:10:44 - : After Put operation: wwwinsurancehome : 200.223.2.212:80:
+19/10/2000 00:10:44 - : Before Put operation: wwwonlinehome : 100.223.2.209:80:
+19/10/2000 00:10:46 - : After Put operation: wwwonlinehome : 200.223.2.209:80:
+19/10/2000 00:10:48 - : Backout restored, Original backout file deleted.
+19/10/2000 00:14:53 - : writing to backout file (.txt)
+19/10/2000 00:14:54 - : Opened ipmap file successfully
+19/10/2000 00:14:55 - : Before Put operation: wwwbankhome : 200.223.2.208:80:
+19/10/2000 00:14:56 - : After Put operation: wwwbankhome : 169.154.10.10:80:
+19/10/2000 00:14:57 - : Before Put operation: wwwonlinehome : 200.223.2.209:80:
+19/10/2000 00:14:58 - : After Put operation: wwwonlinehome : 169.154.10.9:80:
+19/10/2000 00:14:59 - : Before Put operation: wwwsharehome : 200.223.2.210:80:
+19/10/2000 00:15:00 - : After Put operation: wwwsharehome : 169.154.10.8:80:
+19/10/2000 00:15:01 - : Before Put operation: wwwsharesavehome : 200.223.2.211:80:
+19/10/2000 00:15:02 - : After Put operation: wwwsharesavehome : 169.154.10.7:80:
+19/10/2000 00:15:02 - : Before Put operation: wwwinsurancehome : 200.223.2.212:80:
+19/10/2000 00:15:03 - : After Put operation: wwwinsurancehome : 169.154.10.6:80:
+19/10/2000 00:15:05 - : Before Put operation: wwwmortgageshome : 200.223.2.213:80:
+19/10/2000 00:15:06 - : After Put operation: wwwmortgageshome : 169.154.10.5:80:
+19/10/2000 00:15:07 - : Before Put operation: wwwuserreghome : 200.223.2.214:80:
+19/10/2000 00:15:07 - : After Put operation: wwwuserreghome : 169.154.10.4:80:

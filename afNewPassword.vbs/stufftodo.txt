@@ -1,0 +1,9 @@
+install new user, password and key
+
+change key and password
+
+change password script
+
+interrogate password script
+
+change user context of task in task scheduler.

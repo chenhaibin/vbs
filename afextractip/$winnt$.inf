@@ -1,0 +1,94 @@
+[NetmonParamSection]
+[STCPIPParamSection]
+[SNMPParamSection]
+Accept_CommunityName = "public"
+Send_Authentication = "yes"
+Any_Host = "yes"
+Service = "Applications","Internet","EndToEnd"
+[ServicesSection]
+SNMP = "SNMPParamSection"
+STCPIP = "STCPIPParamSection"
+netmon = "netmonParamsection"
+[TCParamSection]
+DHCP = "No"
+IPAddress = "10.223.2.108"
+Subnet = "255.255.255.0"
+Gateway = "10.223.2.254"
+[ProtocolsSection]
+TC = "TCParamSection"
+[E100PCIParamSection]
+[SelectedAdapterSection]
+E100BEXP = "E100PCIParamSection","\i386\drvlib.nic\nic"
+[Network]
+installadapters = "SelectedAdapterSection"
+InstallProtocols = "ProtocolsSection"
+InstallServices = "ServicesSection"
+donotinstallinternetserver = "yes"
+JoinWorkgroup = "CRIBGOCH"
+[LicenseFilePrintData]
+AutoMode = "PerSeat"
+[GuiUnattended]
+OemSkipWelcome = "1"
+OEMBlankAdminPassword = "1"
+TimeZone = "(GMT) Greenwich Mean Time; Dublin, Edinburgh, London"
+AdvServerType = "SERVERNT"
+[UserData]
+FullName = "Halifax Authorised User"
+OrgName = "Halifax plc"
+computername = "CCOM2108"
+[OEM_Ads]
+Banner = "E-Commerce Server Build"
+[Display]
+InfFile = "ati.inf"
+InfOption = "ATI Technologies Inc. 3D RAGE PRO"
+InstallDriver = "1"
+BitsPerPel = "20"
+XResolution = "1024"
+YResolution = "768"
+VRefresh = "70"
+ConfigureAtLogon = "0"
+AutoConfirm = "1"
+[DisplayDrivers]
+"ATI Technologies Inc. 3D RAGE PRO" = "OEM"
+[MassStorageDrivers]
+"PERC NT Driver " = "OEM"
+"Adaptec AHA-294X/AHA-394X/AIC-78XX SCSI Controller" = "RETAIL"
+[Unattended]
+OemPreinstall = "YES"
+NoWaitAfterTextMode = "1"
+NoWaitAfterGUIMode = "1"
+FileSystem = "ConvertNTFS"
+ExtendOEMPartition = "1"
+ConfirmHardware = "no"
+NtUpgrade = "no"
+Win31Upgrade = "no"
+TargetPath = "WINNT"
+OverwriteOemFilesOnUpgrade = "no"
+KeyboardLayout = "United Kingdom"
+OemskipEula = "Yes"
+[data]
+unattendedinstall = "yes"
+floppylessbootpath = "\Device\HardDisk0\partition2"
+producttype = "lanmannt"
+standardserverupgrade = "no"
+winntupgrade = "no"
+win95upgrade = "no"
+win31upgrade = "no"
+sourcepath = "\device\harddisk0\partition2\$win_nt$.~ls"
+OriTyp = "5"
+OriSrc = "A:\I386"
+floppyless = "1"
+msdosinitiated = "1"
+dospath=C:\$WIN_NT$.~LS
+
+[NetCardParameterList]
+!NetCardParameterName = ^($(!STF_UNATTENDED_SECTION), 0)
+!NetCardParameterValue = ^($(!STF_UNATTENDED_SECTION), 1)
+[ReadDefaultData]
+set DefaultDataItems = ^($($0),1)
+ifstr(i) $(DefaultDataItems) == {}
+return STATUS_FAILED
+else
+read-syms $($0)
+return STATUS_SUCCESSFUL
+endif

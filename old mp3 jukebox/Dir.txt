@@ -1,0 +1,137 @@
+ Volume in drive G is MP3JUKEBOX
+ Volume Serial Number is E232-9FB4
+
+
+ Directory of G:\mp3s
+
+01/26/00  08:02p        <DIR>          .
+01/26/00  08:02p        <DIR>          ..
+01/26/00  07:24a        <DIR>          Ray Of Light
+01/26/00  08:02p        <DIR>          jukebox
+01/26/00  10:16p        <DIR>          Due South
+01/27/00  09:52p        <DIR>          Surrender
+01/28/00  07:29a        <DIR>          the Globe Sessions
+01/29/00  10:24p        <DIR>          Hackers
+               8 File(s)              0 bytes
+
+ Directory of G:\mp3s\Ray Of Light
+
+01/26/00  07:24a        <DIR>          .
+01/26/00  07:24a        <DIR>          ..
+01/26/00  07:29a             4,943,621 Drowned World - Substitute For Love.mp3
+01/26/00  07:35a             4,809,874 Swim.mp3
+01/26/00  07:41a             5,131,702 Ray Of Light.mp3
+01/26/00  07:46a             4,428,277 Candy Perfume Girl.mp3
+01/26/00  07:53a             6,106,801 Skin.mp3
+01/26/00  07:58a             4,268,617 Nothing Really Matters.mp3
+01/26/00  08:03a             4,606,328 Sky Fits Heaven.mp3
+01/26/00  08:08a             4,304,979 Shanti - Ashtangi.mp3
+01/26/00  09:19p             5,963,441 Frozen.mp3
+01/26/00  09:24p             4,037,067 The Power Of Good-Bye.mp3
+01/26/00  09:31p             5,166,393 To Have And Not To Hold.mp3
+01/26/00  09:38p             5,095,758 Little Star.mp3
+01/26/00  09:45p             5,306,827 Mer Girl.mp3
+01/31/00  09:36p                   146 jsrth.pls
+              16 File(s)     64,169,831 bytes
+
+ Directory of G:\mp3s\jukebox
+
+01/26/00  08:02p        <DIR>          .
+01/26/00  08:02p        <DIR>          ..
+01/30/00  08:25p                15,370 mp3.htm
+01/26/00  07:55p                35,752 ray of light.gif
+01/26/00  08:12p                 1,407 menu ray of light.gif
+01/29/00  08:39a                34,487 surrender.gif
+01/30/00  08:20p                 1,454 index.htm
+01/27/00  08:59p                33,750 due south.gif
+01/27/00  09:00p                 1,343 menu due south.gif
+01/26/00  08:26p                   204 index.html
+01/29/00  08:40a                 1,350 menu surrender.gif
+01/29/00  08:43a                36,505 sheryl crow.gif
+01/29/00  08:44a                 1,441 menu sheryl crow.gif
+01/30/00  01:27p               290,174 foot.gif
+01/30/00  08:16p                37,163 hackers.gif
+01/30/00  08:19p                 1,274 menu hackers.gif
+              16 File(s)        491,674 bytes
+
+ Directory of G:\mp3s\Due South
+
+01/26/00  10:16p        <DIR>          .
+01/26/00  10:16p        <DIR>          ..
+01/26/00  10:19p             3,121,319 Jay Semko - dueSouth Theme.mp3
+01/26/00  10:27p             5,433,887 Spirit of the West - Bone Of Contention.mp3
+01/26/00  10:30p             2,904,816 Cabin Music.mp3
+01/26/00  10:36p             3,841,044 Sarah McLachlan - Possession (Piano Version).mp3
+01/26/00  10:39p             2,448,404 Horses.mp3
+01/26/00  10:45p             4,748,016 Kashtin - Akua Tuta.mp3
+01/26/00  10:51p             3,738,644 The Guess Who - American Woman.mp3
+01/26/00  10:58p             5,405,884 Figgy Duff - Henry Martin.mp3
+01/26/00  11:03p             4,006,138 Paul Gross - Ride Forever.mp3
+01/26/00  11:08p             3,975,209 Blue Rodeo - Flying.mp3
+01/26/00  11:11p             1,799,732 Jay Semko - dueSouth Theme-1.mp3
+01/26/00  11:15p             3,329,044 Holly Cole Trio - Neon Blue.mp3
+01/26/00  11:19p             3,131,350 Victoria's Secret.mp3
+01/26/00  11:24p             3,454,014 Klaatu - Calling Occupants Of Interplanetary Craft.mp3
+01/26/00  11:31p             5,429,289 Toronto Mendelssohn Choir with Andrew Davis - Eia, Mater (from Stab.mp3
+01/26/00  11:33p             1,420,643 Paul Gross - Fraser; Inuit Soliloquy.mp3
+01/26/00  11:37p             3,275,964 Dief's In Love.mp3
+              19 File(s)     61,463,397 bytes
+
+ Directory of G:\mp3s\Surrender
+
+01/27/00  09:52p        <DIR>          .
+01/27/00  09:52p        <DIR>          ..
+01/27/00  10:04p             5,119,582 Music- Response.mp3
+01/27/00  10:14p             4,096,835 Under the Influence.mp3
+01/27/00  10:32p             7,016,698 Out of Control.mp3
+01/27/00  10:39p             2,986,318 Orange Wedge.mp3
+01/27/00  10:48p             3,764,558 Let Forever Be.mp3
+01/27/00  11:07p             8,302,759 The Sunshine Underground.mp3
+01/27/00  11:15p             4,595,879 Asleep From Day.mp3
+01/27/00  11:24p             5,223,235 Got Glint-.mp3
+01/27/00  11:31p             4,648,124 Hey Boy Hey Girl.mp3
+01/27/00  11:39p             4,320,862 Surrender.mp3
+01/27/00  11:50p             6,502,191 Dream On.mp3
+              13 File(s)     56,577,041 bytes
+
+ Directory of G:\mp3s\the Globe Sessions
+
+01/28/00  07:29a        <DIR>          .
+01/28/00  07:29a        <DIR>          ..
+01/28/00  07:35a             3,967,268 My Favorite Mistake.mp3
+01/28/00  07:43a             4,830,354 There Goes the Neighborhood.mp3
+01/28/00  07:50a             3,965,178 Riverwide.mp3
+01/28/00  07:58a             4,634,749 It Don't Hurt.mp3
+01/28/00  08:05a             4,130,272 Maybe That's Something.mp3
+01/28/00  08:14a             5,297,214 Am I Getting Through (Part 1 & 2).mp3
+01/28/00  08:21a             4,129,018 Anything But Down.mp3
+01/28/00  08:31a             6,068,767 The Difficult Kind.mp3
+01/28/00  08:39a             4,506,435 Mississippi.mp3
+01/28/00  08:47a             4,762,226 Members Only.mp3
+01/28/00  09:05a            10,984,803 Crash and Burn.mp3
+01/28/00  09:12a             3,822,236 Resuscitation.mp3
+              14 File(s)     61,098,520 bytes
+
+ Directory of G:\mp3s\Hackers
+
+01/29/00  10:24p        <DIR>          .
+01/29/00  10:24p        <DIR>          ..
+01/29/00  10:29p             5,870,654 Kruder & Dorfmeister - Original Bedroom Rockers.mp3
+01/29/00  10:39p             8,582,791 Underworld - Cowgirl.mp3
+01/29/00  10:44p             3,968,940 Prodigy - Voodoo People.mp3
+01/29/00  10:51p             6,619,219 Leftfield - Open Up.mp3
+01/29/00  10:56p             3,527,575 Carl Cox - Phoebus Apollo.mp3
+01/29/00  11:01p             4,812,382 Josh Abrahams - The Joker.mp3
+01/29/00  11:11p             9,099,389 Orbital - Halcyon & On & On.mp3
+01/29/00  11:18p             6,154,866 Plastico - Communicate (Headquake Hazy Cloud Mix).mp3
+01/29/00  11:22p             3,739,480 Prodigy - One Love.mp3
+01/29/00  11:27p             3,857,345 Stereo MC's - Connected.mp3
+01/29/00  11:33p             5,130,866 Ramshackle - Eyes, Lips, Body (Mekon Vocal Mix).mp3
+01/29/00  11:37p             4,331,311 Urban Dance Squad - Good Grief.mp3
+01/29/00  11:42p             4,038,321 Machines of Loving Grace - Richest Junkie Still Alive (Sank Re.mp3
+01/29/00  11:47p             4,391,497 Squeeze - Heaven Knows.mp3
+              16 File(s)     74,124,636 bytes
+
+     Total Files Listed:
+             102 File(s)    317,925,099 bytes
+                          1,231,257,600 bytes free

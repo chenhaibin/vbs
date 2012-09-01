@@ -1,0 +1,236 @@
+Microsoft (R) Windows Script Host Version 5.6
+Copyright (C) Microsoft Corporation 1996-2001. All rights reserved.
+
+  Server				Engine		Def 
+ ---------------------------------------------------------------
+  ADMRL0001.el01.local		4.4.00		4.0.4716
+  DBSRL0003.el01.local		4.4.00		4.0.4716
+  DBSRL0005.el01.local		4.4.00		4.0.4716
+  BACXL0001.el00.local		4.4.00		4.0.4716
+  ADMRL5001.el01.local		4.4.00		4.0.4716
+  DBSRL5003.el01.local		4.4.00		4.0.4716
+  DBSRL5005.el01.local		4.4.00		4.0.4716
+  BACXL5001.el00.local		4.4.00		4.0.4716
+  WBIRL0001.el01.local		4.4.00		4.0.4716
+  WBIRL0002.el01.local		4.4.00		4.0.4716
+  WBIRL0003.el01.local		4.4.00		4.0.4716
+  WBIRL0004.el01.local		4.4.00		4.0.4716
+  WBIRL0005.el01.local		4.4.00		4.0.4716
+  WBIRL0006.el01.local		4.4.00		4.0.4716
+  WBIRL0007.el01.local		4.4.00		4.0.4716
+  WBIRL0008.el01.local		4.4.00		4.0.4716
+  WBIRL0009.el01.local		4.4.00		4.0.4716
+  WBIRL0010.el01.local		4.4.00		4.0.4716
+  WBIRL0011.el01.local		4.4.00		4.0.4716
+  WBIRL0012.el01.local		4.4.00		4.0.4716
+  WBIRL0013.el01.local		4.4.00		4.0.4716
+  WBIRL0014.el01.local		4.4.00		4.0.4716
+  WBIRL0015.el01.local		4.4.00		4.0.4716
+  WBIRL0016.el01.local		4.4.00		4.0.4716
+  WBIRL5001.el01.local		4.4.00		4.0.4716
+  WBIRL5002.el01.local		4.4.00		4.0.4716
+  WBIRL5003.el01.local		4.4.00		4.0.4716
+  WBIRL5004.el01.local		4.4.00		4.0.4716
+  WBIRL5005.el01.local		4.4.00		4.0.4716
+  WBIRL5006.el01.local		4.4.00		4.0.4716
+  WBIRL5007.el01.local		4.4.00		4.0.4716
+  WBIRL5008.el01.local		4.4.00		4.0.4716
+  WBIRL5009.el01.local		4.4.00		4.0.4716
+  WBIRL5010.el01.local		4.4.00		4.0.4716
+  WBIRL5011.el01.local		4.4.00		4.0.4716
+  WBIRL5012.el01.local		4.4.00		4.0.4716
+  WBIRL5013.el01.local		4.4.00		4.0.4716
+  WBIRL5014.el01.local		4.4.00		4.0.4716
+  WBIRL5015.el01.local		4.4.00		4.0.4716
+  WBIRL5016.el01.local		4.4.00		4.0.4716
+Microsoft (R) Windows Script Host Version 5.6
+Copyright (C) Microsoft Corporation 1996-2001. All rights reserved.
+
+  Server				Engine		Def 
+ ---------------------------------------------------------------
+  ADMBL0001.el04.local		4.4.00		4.0.4716
+  DBSBL0001.el04.local		4.4.00		4.0.4716
+  ADMBL5001.el04.local		4.4.00		4.0.4716
+  DBSBL5001.el04.local		4.4.00		4.0.4642
+  WBIBL5001.el04.local		4.4.00		4.0.4716
+  WBIBL5002.el04.local		4.4.00		4.0.4716
+  WBIBL5001.el04.local		4.4.00		4.0.4716
+  WBIBL5002.el04.local		4.4.00		4.0.4716
+Microsoft (R) Windows Script Host Version 5.6
+Copyright (C) Microsoft Corporation 1996-2001. All rights reserved.
+
+  Server				Engine		Def 
+ ---------------------------------------------------------------
+  DBSFL0001.el02.local		4.4.00		4.0.4716
+  ADMFL0001.el02.local		4.4.00		4.0.4715
+  DBSFL5001.el02.local		4.4.00		4.0.4716
+  ADMFL5001.el02.local		4.4.00		4.0.4716
+  BROFL0001.el02.local		4.4.00		4.0.4716
+  BROFL5001.el02.local		4.4.00		4.0.4716
+  WBIFL0001.el02.local		4.4.00		4.0.4716
+  WBIFL0002.el02.local		4.4.00		4.0.4716
+  WBIFL0003.el02.local		4.4.00		4.0.4716
+  WBIFL0004.el02.local		4.4.00		4.0.4716
+  WBIFL0005.el02.local		4.4.00		4.0.4716
+  WBIFL0006.el02.local		4.4.00		4.0.4716
+  WBIFL0007.el02.local		4.4.00		4.0.4716
+  WBIFL0008.el02.local		4.4.00		4.0.4716
+  WBIFL0009.el02.local		4.4.00		4.0.4716
+  WBIFL5001.el02.local		4.4.00		4.0.4716
+  WBIFL5002.el02.local		4.4.00		4.0.4716
+  WBIFL5003.el02.local		4.4.00		4.0.4716
+  WBIFL5004.el02.local		4.4.00		4.0.4716
+  WBIFL5005.el02.local		4.4.00		4.0.4716
+  WBIFL5006.el02.local		4.4.00		4.0.4716
+  WBIFL5007.el02.local		4.4.00		4.0.4716
+  WBIFL5008.el02.local		4.4.00		4.0.4716
+  WBIFL5009.el02.local		4.4.00		4.0.4716
+Microsoft (R) Windows Script Host Version 5.6
+Copyright (C) Microsoft Corporation 1996-2001. All rights reserved.
+
+  Server				Engine		Def 
+ ---------------------------------------------------------------
+  DBSIL0001.el01.local		4.4.00		4.0.4716
+  ADMIL0001.el01.local		4.4.00		4.0.4716
+  DBSIL5001.el01.local		4.4.00		4.0.4716
+  ADMIL5001.el01.local		4.4.00		4.0.4716
+  WBIIL0001.el01.local		4.4.00		4.0.4716
+  WBIIL0002.el01.local		4.4.00		4.0.4716
+  WBIIL0003.el01.local		4.4.00		4.0.4716
+  WBIIL0004.el01.local		4.4.00		4.0.4716
+  WBIIL0005.el01.local		4.4.00		4.0.4716
+  WBIIL5001.el01.local		4.4.00		4.0.4716
+  WBIIL5002.el01.local		4.4.00		4.0.4716
+  WBIIL5003.el01.local		4.4.00		4.0.4716
+  WBIIL5004.el01.local		4.4.00		4.0.4716
+  WBIIL5005.el01.local		4.4.00		4.0.4716
+  intm0021		4.4.00		4.0.4716
+  10.224.108.111		4.4.00		4.0.4716
+Microsoft (R) Windows Script Host Version 5.1 for Windows
+Copyright (C) Microsoft Corporation 1996-1999. All rights reserved.
+
+  Server				Engine		Def 
+ ---------------------------------------------------------------
+  EHOS0101		4.4.00		4.0.4716
+  EHOS5101		4.4.00		4.0.4716
+  EHOS0201		4.4.00		4.0.4716
+  EHOS0202		4.4.00		4.0.4716
+  EHOS0203		4.4.00		4.0.4716
+  EHOS0204		4.4.00		4.0.4716
+  EHOS0205		4.4.00		4.0.4716
+  EHOS0206		4.4.00		4.0.4716
+  EHOS0207		4.4.00		4.0.4716
+  EHOS5201		4.4.00		4.0.4716
+  EHOS5202		4.4.00		4.0.4716
+  EHOS5203		4.4.00		4.0.4716
+  EHOS5204		4.4.00		4.0.4716
+  EHOS5205		4.4.00		4.0.4716
+  EHOS5206		4.4.00		4.0.4716
+  EHOS0207		4.4.00		4.0.4716
+
+Microsoft (R) Windows Script Host Version 5.1 for Windows
+Copyright (C) Microsoft Corporation 1996-1999. All rights reserved.
+
+  Server				Engine		Def 
+ ---------------------------------------------------------------
+  SCOM0003		4.4.00		4.0.4716
+  SCOM5003		4.4.00		4.0.4716
+  SCOM0110		4.4.00		4.0.4716
+  SCOM0105		4.4.00		4.0.4716
+  SCOM5105		4.4.00		4.0.4716
+  SCOM5110		4.4.00		4.0.4716
+  SHOS0201		4.4.00		4.0.4716
+  SHOS0202		4.4.00		4.0.4716
+  SHOS5201		4.4.00		4.0.4716
+  SHOS5202		4.4.00		4.0.4716
+  SCOM0201		4.4.00		4.0.4716
+  SCOM0202		4.4.00		4.0.4716
+  SCOM0203		4.4.00		4.0.4716
+  SCOM5201		4.4.00		4.0.4716
+  SCOM5202		4.4.00		4.0.4716
+  SCOM5203		4.4.00		4.0.4716
+
+
+Microsoft (R) Windows Script Host Version 5.1 for Windows
+Copyright (C) Microsoft Corporation 1996-1999. All rights reserved.
+
+ Server                                Engine          Def
+ ---------------------------------------------------------------
+  DBSEL0003.rtdom.com           4.4.00          4.0.4716
+  DBSEL0005.rtdom.com           4.4.00          4.0.4716
+  DBSEL0007.rtdom.com           4.4.00          4.0.4716
+  BACEL0001.rtdom.com           4.4.00          4.0.4716
+  ADMEL0001.rtdom.com           4.4.00          4.0.4716
+  DBSEL5003.rtdom.com           4.4.00          4.0.4716
+  DBSEL5005.rtdom.com           4.4.00          4.0.4716
+  DBSEL5007.rtdom.com           4.4.00          4.0.4716
+  BACEL5001.rtdom.com           4.4.00          4.0.4716
+  ADMEL5001.rtdom.com           4.4.00          4.0.4716
+  WBIEL0001.rtdom.com           4.4.00          4.0.4716
+  WBIEL0002.rtdom.com           4.4.00          4.0.4716
+  WBIEL0003.rtdom.com           4.4.00          4.0.4716
+  WBIEL0004.rtdom.com           4.4.00          4.0.4716
+  WBIEL0005.rtdom.com           4.4.00          4.0.4716
+  WBIEL0006.rtdom.com           4.4.00          4.0.4716
+  WBIEL0007.rtdom.com           4.4.00          4.0.4716
+  WBIEL0008.rtdom.com           4.4.00          4.0.4716
+  WBIEL0009.rtdom.com           4.4.00          4.0.4716
+  WBIEL0010.rtdom.com           4.4.00          4.0.4716
+  WBIEL0011.rtdom.com           4.4.00          4.0.4716
+  WBIEL0012.rtdom.com           4.4.00          4.0.4716
+  WBIEL0013.rtdom.com           4.4.00          4.0.4716
+  WBIEL0014.rtdom.com           4.4.00          4.0.4716
+  WBIEL0015.rtdom.com           4.4.00          4.0.4716
+  WBIEL0016.rtdom.com           4.4.00          4.0.4716
+  WBIEL0017.rtdom.com           4.4.00          4.0.4716
+  WBIEL0018.rtdom.com           4.4.00          4.0.4716
+  WBIEL0019.rtdom.com           4.4.00          4.0.4716
+  WBIEL0020.rtdom.com           4.4.00          4.0.4716
+  WBIEL0021.rtdom.com           4.4.00          4.0.4716
+  WBIEL0022.rtdom.com           4.4.00          4.0.4716
+  WBIEL0023.rtdom.com           4.4.00          4.0.4716
+  WBIEL0024.rtdom.com           4.4.00          4.0.4716
+  WBIEL0025.rtdom.com           4.4.00          4.0.4716
+  WBIEL0026.rtdom.com           4.4.00          4.0.4716
+  WBIEL0027.rtdom.com           4.4.00          4.0.4716
+  WBIEL0028.rtdom.com           4.4.00          4.0.4716
+  WBIEL0029.rtdom.com           4.4.00          4.0.4716
+  WBIEL0030.rtdom.com           4.4.00          4.0.4716
+  WBIEL5001.rtdom.com           4.4.00          4.0.4716
+  WBIEL5002.rtdom.com           4.4.00          4.0.4716
+  WBIEL5003.rtdom.com           4.4.00          4.0.4716
+  WBIEL5004.rtdom.com           4.4.00          4.0.4716
+  WBIEL5005.rtdom.com           4.4.00          4.0.4716
+  WBIEL5006.rtdom.com           4.4.00          4.0.4716
+  WBIEL5007.rtdom.com           4.4.00          4.0.4716
+  WBIEL5008.rtdom.com           4.4.00          4.0.4716
+  WBIEL5009.rtdom.com           4.4.00          4.0.4716
+  WBIEL5010.rtdom.com           4.4.00          4.0.4716
+  WBIEL5011.rtdom.com           4.4.00          4.0.4716
+  WBIEL5012.rtdom.com           4.4.00          4.0.4716
+  WBIEL5013.rtdom.com           4.4.00          4.0.4716
+  WBIEL5014.rtdom.com           4.4.00          4.0.4716
+  WBIEL5015.rtdom.com           4.4.00          4.0.4716
+  WBIEL5016.rtdom.com           4.4.00          4.0.4716
+  WBIEL5017.rtdom.com           4.4.00          4.0.4716
+  WBIEL5018.rtdom.com           4.4.00          4.0.4716
+  WBIEL5019.rtdom.com           4.4.00          4.0.4716
+  WBIEL5020.rtdom.com           4.4.00          4.0.4716
+  WBIEL5021.rtdom.com           4.4.00          4.0.4716
+  WBIEL5022.rtdom.com           4.4.00          4.0.4716
+  WBIEL5023.rtdom.com           4.4.00          4.0.4716
+  WBIEL5024.rtdom.com           4.4.00          4.0.4716
+  WBIEL5025.rtdom.com           4.4.00          4.0.4716
+  WBIEL5026.rtdom.com           4.4.00          4.0.4716
+  WBIEL5027.rtdom.com           4.4.00          4.0.4716
+  WBIEL5028.rtdom.com           4.4.00          4.0.4716
+  WBIEL5029.rtdom.com           4.4.00          4.0.4716
+  WBIEL5030.rtdom.com           4.4.00          4.0.4618
+
+  Server                                Engine          Def
+ ---------------------------------------------------------------
+  EBUS0L01              4.4.00          4.0.4716
+  EBUS5L01              4.4.00          4.0.4716
+  EBUS0107              4.4.00          4.0.4716
+  EBUS5107              4.4.00          4.0.4716
+  EBUS0250              4.4.00          4.0.4716

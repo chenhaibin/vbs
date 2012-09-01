@@ -1,0 +1,735 @@
+# ******************************************************************
+#
+# Name		: WASResponseFile.txt - Response file
+#				for auto install of Websphere NDM
+# 
+# Author(s)	: Paul Clarkson, Adrian Farnell
+# Version	: 1.0 		- Creation (26/08/2003)
+# Notes		: N/a
+#
+# ******************************************************************
+
+
+
+# *******************************************
+#
+# Response file for WebSphere Application Server 5.0 Install
+#
+# Please follow the comments to use the response file and 
+# understand the various options.  You must carefully complete 
+# or change the various values. If the values are not completed
+# properly, the install may be unsuccessful.
+# 
+#
+# IMPORTANT: ALL VALUES MUST BE ENCLOSED IN DOUBLE QUOTES ( "" ).
+#
+# *******************************************
+
+# *******************************************
+# This value is required.
+# PLEASE DO NOT REMOVE THIS VALUE.
+# *******************************************
+
+-W setupTypes.selectedSetupTypeId="custom"
+
+
+# *******************************************
+# Below is the beginning of the response file that needs to be 
+# filled in by the user.
+# *******************************************
+
+# *******************************************
+# The below value specifies silent install. This value
+# indicates that the install will be silent. If you wish not to install
+# silently, just delete this value.
+# *******************************************
+
+-silent
+
+
+# *******************************************
+# WebSphere Application Server Install Location
+#
+# Please specify the destination directory for the WebSphere Application
+# Server installation.   You will need to change this for UNIX 
+# platforms. As an example for AIX, the value may be
+# "/usr/WebSphere/AppServer"
+# *******************************************
+
+-P wasBean.installLocation="E:\Program Files\WebSphere\AppServer"
+
+
+# *******************************************
+# IBM HTTP Server Install Location
+#
+# Please specify the destination directory for the IBM HTTP Server
+# installation.  This value will need to be completed if you
+# choose to install IBM HTTP Server.  If you choose to not install IBM
+# HTTP Server, then this value is not required.  You will need to change 
+# the default value below for UNIX platforms.  As an example for AIX, the
+# value may be "/usr/IBMHTTPServer"
+# *******************************************
+
+-P ihsFeatureBean.installLocation="E:\Program Files\IBMHTTPServer"
+
+
+# *******************************************
+# Below are the features that you may choose to install.
+# Set the following values to "true" or "false," depending upon whether 
+# you want to install the following features or not.
+#
+# NOTE: The default settings for features in this response file 
+#       detail the defaults for a typical installation.
+# *******************************************
+
+
+# *******************************************
+# Install Server
+# *******************************************
+
+-P serverBean.active="true"
+
+
+# *******************************************
+#
+# Begin Features for Administration
+#
+# *******************************************
+
+# *********
+# Install Administration
+# *********
+
+-P adminBean.active="true"
+
+# *********
+# The next 2 features are part of Administration. In order for any of these
+# features to be installed, the property to install Administration denoted 
+# above must be set to "true."
+# *********
+
+# *********
+# Install Admin Scripting
+# *********
+
+-P adminScriptingFeatureBean.active="true"
+
+# *********
+# Install Administrative Console
+# *********
+
+-P adminConsoleFeatureBean.active="true"
+
+# *******************************************
+#
+# End Features for Administration
+#
+# *******************************************
+
+
+# *******************************************
+#
+# Begin Features for Application Assembly and Deployment Tools
+#
+# *******************************************
+
+# *********
+# Install Application Assembly and Deployment Tools
+# *********
+
+-P applicationAndAssemblyToolsBean.active="true"
+
+# *********
+# The next 3 features are part of Application Assembly and Deployment
+# Tools. In order for any of these features to be installed, 
+# the property to install Application And Assembly Tools denoted 
+# above must be set to "true."
+# *********
+
+# *********
+# Install Application Assembly Tool
+# *********
+
+-P applicationAssemblyToolBean.active="true"
+
+# ********* 
+# Install Deploy Tool
+# *********
+
+-P deployToolBean.active="true"
+
+# *********
+# Install Ant Utilities
+# *********
+
+-P antUtilityBean.active="true"
+
+# *******************************************
+#
+# End Features for Application Assembly and Deployment Tools
+#
+# *******************************************
+
+
+# *******************************************
+#
+# Begin Features for Embedded Messaging
+#
+# *******************************************
+
+# ********* 
+# Install Embedded Messaging
+# *********
+
+-P mqSeriesBean.active="true"
+
+# *********
+# The next three features are for Embedded Messaging.  In order to install
+# any of the following three subfeatures, the property to install Embedded
+# Messaging denoted above must be set to "true."
+# 
+# IMPORTANT NOTE:  If you do not want to install Embedded Messaging, please
+# ensure all of the following options are set to "false" as well as the above
+# option. 
+# *********
+
+# ********* 
+# Install Embedded Messaging Server and Client
+#
+# You may only install the Embedded Messaging Server and Client or the Embedded
+# Messaging client below.  If you set the Server and Client to "true," please
+# ensure that the Client only option below is set to "false."  The same applies
+# if you set the Client only option to "true," please ensure the server and client
+# option is set to "false."
+# *********
+
+-P mqSeriesServerBean.active="true"
+
+# *********
+# Embedded Messaging Server and Client install location
+#
+# If you choose to install Embedded Messaging Server and Client above, please
+# specify an install location below for Windows platforms only.
+# The directory may not be configured by the user for UNIX platforms
+# as it is predetermined.
+# *********
+
+-P mqSeriesServerBean.installLocation="E:\Program Files\IBM\WebSphere MQ"
+
+# *********
+# Install Embedded Messaging Client only
+# *********
+
+-P mqSeriesClientBean.active="false"
+
+# *********
+# Embedded Messaging Client Only install location
+#
+# If you choose to install Embedded Messaging Client only above, please
+# specify an install location below for Windows platforms only.
+# The directory may not be configured by the user for UNIX platforms
+# as it is predetermined.
+# *********
+
+-P mqSeriesClientBean.installLocation="E:\Program Files\IBM\WebSphere MQ"
+
+# *********
+# Install Message-driven beans Samples
+# *********
+
+-P mqSeriesSamplesBean.active="false"
+
+# *******************************************
+#
+# End Features for Embedded Messaging
+#
+# *******************************************
+
+
+# *******************************************
+# Install IHS WebServer 1.3.26
+# *******************************************
+
+-P ihsFeatureBean.active="true"
+
+
+# *******************************************
+#
+# Begin Features for Web Server Plugins
+#
+# *******************************************
+
+# *********
+# Install Web Server Plugins
+# *********
+
+-P pluginBean.active="true"
+
+# *********
+# The next 5 features are part of Web Server Plugins. 
+# In order for any of these features to be installed, 
+# the property to install Web Server Plugins denoted 
+# above must be set to "true."
+# *********
+
+# *********
+# Install IBM HTTP Server Plugin
+# *********
+
+-P ihsPluginBean.active="true"
+
+# *********
+# Install Apache Web Server Plugin
+# *********
+
+-P apachePluginBean.active="false"
+
+# *********
+# Install Microsoft Internet Information Services (IIS) Plugin
+# *********
+
+-P iisPluginBean.active="false"
+
+# *********
+# Install iPlanet Web Server Plugin
+# *********
+
+-P iplanet60PluginBean.active="false"
+
+# *********
+# Install Domino Web Server Plugin
+# *********
+
+-P dominoPluginBean.active="false"
+
+# *******************************************
+#
+# End Features for Web Server Plugins
+#
+# *******************************************
+
+
+# *******************************************
+# Install Samples
+# *******************************************
+
+-P samplesBean.active="false"
+
+
+# *******************************************
+#
+# Begin Features for Performance and Analysis Tools
+#
+# *******************************************
+
+# *********
+# Install Performance And Analysis Tools
+# *********
+
+-P performanceAndAnalysisToolsBean.active="true"
+
+# *********
+# The next 3 features are part of Performance And Analysis 
+# Tools. In order for any of these features to be installed, 
+# the property to install Performance And Analysis Tools denoted 
+# above must be set to "true."
+# *********
+
+# *********
+# Install Tivoli Performance Viewer
+# *********
+
+-P tivoliPerfBean.active="true"
+
+# *********
+# Install Dynamic Cache Monitor
+# *********
+
+-P DCMBean.active="true"
+
+# *********
+# Install Performance Servlet
+# *********
+
+-P performanceServletBean.active="true"
+
+# *******************************************
+#
+# End Features for Performance and Analysis Tools
+#
+# *******************************************
+
+
+# *******************************************
+# Install Javadocs
+# *******************************************
+
+-P javadocBean.active="false"
+
+
+# *******************************************
+# Please enter a node name and hostname for this installation.  
+# The node name is used for administration, and must be unique 
+# within its group of nodes (cell).  The hostname is the DNS name 
+# or IP address for this computer.  You must replace the 
+# "DefaultNode" with the node name that you want the default node 
+# to be and "127.0.0.1" to a resolveable hostname or IP address 
+# for your machine.
+
+# Warning: If you are migrating now or plan to do so after 
+# installation, enter the same node name as the previous version.
+# *******************************************
+
+-W nodeNameBean.nodeName="NTW324100"
+-W nodeNameBean.hostName="NTW324100"
+
+
+# *******************************************
+# Begin Installing Services 
+#
+# The following are to install Services for IHS and Websphere 
+# Application Server on Windows.  Using Services, you can start and 
+# stop services, and configure startup and recovery actions. 
+# You can ignore these or comment them out for other Operating Systems.
+# *******************************************
+
+-W serviceSettingsWizardBean.active="true"
+
+# *********
+# The next 2 options are part of Installing Services. 
+# In order for any of these to be set to "true," 
+# the property to install Services denoted above must be set 
+# to "true."
+# *********
+
+# *********
+# Install the IHS service
+# *********
+
+-W serviceSettingsWizardBean.ihsChoice="true"
+
+# *********
+# Install the WebSphere Application Server service
+# *********
+
+-W serviceSettingsWizardBean.wasChoice="true"
+
+# *********
+# If you chose to install a service above, then you must
+# specify the User Name and Password which are required to 
+# install the Services. The current user must be admin or must 
+# have admin authority to install a Service. Also the username 
+# which is given here must have "Log On as a Service " authority 
+# for the service to run properly.
+# *********
+
+# *********
+# Replace YOUR_USER_NAME with your username.
+# *********
+
+-W serviceSettingsWizardBean.userName="HxWebsSVC"
+
+# *********
+# Replace YOUR_PASSWORD with your valid password.
+# *********
+
+-W serviceSettingsWizardBean.password="rG=7a_;hK2z45b"
+
+# *******************************************
+# 
+# End Installing Services 
+#
+# *******************************************
+
+
+# *******************************************
+# Set any or all of the following to false if the launcher 
+# icon is not to be installed.  These settings will only affect 
+# an install in which the corresponding product component
+# is also selected for install.
+# *******************************************
+
+-P StartServerIconBean.active="true"
+-P StopServerIconBean.active="true"
+-P AdminConsoleIconBean.active="true"
+-P AssemblyToolIconBean.active="true"
+-P SamplesGalleryIconBean.active="true"
+-P TivoliPerfIconBean.active="true"
+-P infoCenterIconBean.active="true"
+-P firstStepsIconBean.active="true"
+-P logAnalyzerIconBean.active="true"
+
+
+# *******************************************
+# Change the path to the prerequisite checker configuration 
+# file only if a new file has been provided.  This can be a 
+# relative path or an absolute path.  Make sure both the
+# prereqChecker.xml and prereqChecker.dtd files are present at the provided path.
+# *******************************************
+
+-W osLevelCheckActionBean.configFilePath="waspc/prereqChecker.xml"
+
+
+# *******************************************
+# Begin Plugin Config File Location
+#
+# If you chose to install plugins above, then you will
+# need to specify the fully qualified path, including 
+# the config file name, for the plugins you selected.  If you want to 
+# install the plugin, you must specify this path, otherwise the 
+# installer will fail to install the plugins properly.  Also, the 
+# value must be included in double quotes.
+# *******************************************
+
+# *********
+# IBM HTTP Server Plugin Config File Location
+# *********
+
+-W defaultIHSConfigFileLocationBean.value="E:\Program Files\IBMHTTPServer\conf\httpd.conf"
+
+# *********
+# Apache Web Server Config File Location
+# *********
+
+-W defaultApacheConfigFileLocationBean.value=
+
+# *********
+# iPlanet Web Server Config File Location
+# *********
+
+-W defaultIPlanetConfigFileLocationBean.value=
+
+# *********
+# Begin Domino Web Server Plugin Config File Locations
+# 
+# The Notes.jar and names.nsf locations are required
+# for the Domino Plugin.  Please be sure to enter values in
+# double quotes for both of these files.
+# *********
+
+# *********
+# Domino Notes.jar File Location
+# *********
+
+-W dominoPanelBean.notesJarFile=
+
+# *********
+# Domino names.nsf File Location
+# *********
+
+-W dominoPanelBean.namesFile=
+
+# *********
+# End Domino Web Server Plugin Config File Locations
+# *********
+
+# *******************************************
+# 
+# End Plugin Config File Location
+#
+# *******************************************
+
+
+# *******************************************
+# Product Registration Tool
+#
+# To launch the Product Registration Tool, please 
+# change the value to "true." This is only for
+# GUI install.
+# *******************************************
+
+-W launchPRTBean.active="false"
+
+
+# *******************************************
+# Install Default App
+#
+# Please specify if you would like to install the 
+# Default App by setting the value to "true" or "false."
+# *******************************************
+
+-W installSampleAppSequenceBean.active="true"
+
+
+# *******************************************
+# First Steps
+# 
+# If you would the First Steps to display at the end
+# of the installation, please change the value to "true."
+# *******************************************
+
+-W firstStepsSequenceBean.active="false"
+
+
+# *******************************************
+# Installation Verification Tool  (IVT)
+#
+# Please specify if you would like to run the Installation 
+# Verification Tool by setting the value to "true" or "false."
+# *******************************************
+
+-W installIVTAppSequenceBean.active="true"
+
+# ***********************************************************
+# **         Support for Silent Coexistence
+# **
+# ** NOTE: You must uncomment and modify the properties in
+# ** this section for silent coexistence to work properly.
+# **
+# ***********************************************************
+
+# ***********************************************************
+# Tell the installer that you want to perform coexistence
+# ***********************************************************
+
+#-W coexistenceOptionsBean.doCoexistence="true"
+
+# ***********************************************************
+# Set this property if you want to modify the default IHS
+# and IHS Admin ports
+# ***********************************************************
+
+#-W coexistencePanelBean.useIhs="true"
+
+# ***********************************************************
+# The new value for the Bootstrap Port
+# ***********************************************************
+
+#-W coexistencePanelBean.bootstrapPort="2810"
+
+# ***********************************************************
+# The new values for the IHS and IHS Admin ports
+# NOTE: These values are only used if 
+# coexistencePanelBean.useIhs is set to "true"
+# ***********************************************************
+
+#-W coexistencePanelBean.ihsPort="81"
+#-W coexistencePanelBean.ihsAdminPort="8009"
+
+# ***********************************************************
+# The new values for the HTTP and HTTPs transports.
+# ***********************************************************
+
+#-W coexistencePanelBean.httpTransportPort="9086"
+#-W coexistencePanelBean.httpsTransportPort="9044"
+
+# ***********************************************************
+# Thew new values for the admin console an secure admin
+# console ports.
+# ***********************************************************
+
+#-W coexistencePanelBean.adminConsolePort="9091"
+#-W coexistencePanelBean.secureAdminConsolePort="9444"
+
+# ***********************************************************
+# The new values for the csivServerAuthListener and
+# the csivMultiAuthListener ports.
+# NOTE: You can usually leave these set to 0
+# ***********************************************************
+
+#-W coexistencePanelBean.csivServerAuthListenerAddr="0"
+#-W coexistencePanelBean.csivMultiAuthListenerAddr="0"
+
+# ***********************************************************
+# The new value for the sasSSLServerAuth port.
+# ***********************************************************
+
+#-W coexistencePanelBean.sasSSLServerAuthAddr="0"
+
+# ***********************************************************
+# The new values for the JMS Server Direct Address,
+# JMS Server Security, and JMS Server QueuedAddress ports
+# ***********************************************************
+
+#-W coexistencePanelBean.jmsServerDirectAddress="5569"
+#-W coexistencePanelBean.jmsServerSecurityPort="5567"
+#-W coexistencePanelBean.jmsServerQueuedAddress="5568"
+
+# ***********************************************************
+# The new value for the soap connector address port
+# ***********************************************************
+
+#-W coexistencePanelBean.soapConnectorAddress="8881"
+
+# ***********************************************************
+# The new value for the DRS Client Address port
+# ***********************************************************
+
+#-W coexistencePanelBean.drsClientAddress="7874"
+
+
+# ***********************************************************
+# **         Support for Silent Migration
+# **
+# ** NOTE: You must uncomment and modify EVERY property
+# ** in this section for silent migration to work properly.
+# **
+# ***********************************************************
+
+# ***********************************************************
+# The installer must be informed that you wish to operate on 
+# a previous version, so you must tell it that one is present 
+# by uncommenting the next line.
+# ***********************************************************
+
+# -W previousVersionDetectedBean.previousVersionDetected="true"
+
+# ***********************************************************
+# Direct the installer to operate on a specific previous version by
+# uncommenting the next line and entering one of these values:
+# 
+#  Value              Edition
+#  *****              *******
+#  AE                 WAS Advanced Edition (V3.x, V4.0.x)
+#  advanced           AE
+#  AEs                WAS Advanced Single Server Edition (V4.0.x)
+#  standard           WAS Standard Edition (V3.x)
+# ************************************************************           
+
+# -W previousVersionPanelBean.selectedVersionEdition="AEs"
+
+# ************************************************************
+# Specify the location where the previous version is installed.
+# ************************************************************
+
+# -W previousVersionPanelBean.selectedVersionInstallLocation="/opt/WebSphere/AppServer"
+
+# ************************************************************
+# Specify the path to the configuration file for the
+# previous version.  Configuration filenames are:
+#
+# Value            previousVersionPanelBean.selectedVersionEdition 
+# *****            ***********************************************
+# admin.config     AE
+# admin.config     advanced
+# server-cfg       AEs
+# server-cfg       standard
+# ************************************************************
+
+# -W previousVersionPanelBean.selectedVersionConfigFile="/opt/WebSphere/AppServer/config/server-cfg.xml"
+
+# ************************************************************
+# Specify the version number of the previous version: 4.0 4.0.1 3.5 etc...
+# ************************************************************
+
+# -W previousVersionPanelBean.previousVersionSelected="4.0"
+
+# ************************************************************
+# Uncomment the below line to indicate that you wish to 
+# migrate the previous version.
+# ************************************************************
+
+# -W previousVersionPanelBean.migrationSelected="true"
+
+# ************************************************************
+# Specify the directory where migration will backup 
+# information about the previous version.
+# ************************************************************
+
+# -W migrationInformationPanelBean.migrationBackupDir="/tmp/migrationbackup"
+
+# ************************************************************
+# Specify the directory where migration logs will be stored.
+# ************************************************************
+
+# -W migrationInformationPanelBean.migrationLogfileDir="/tmp/migrationlogs"
